@@ -1,0 +1,164 @@
+.resources-secondary-title{
+    height: auto;
+    padding: 3% 27%;
+}
+.resources-secondary-title h2{
+    text-align: center;
+    color:#1B365D;
+    font-family: 'Built-Tilting-Bold';
+    font-size: 5rem;
+
+}
+
+@media screen and (max-width:2700px){
+    .resources-secondary-title{
+        padding: 3% 25%;
+    }
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 4.5rem;
+
+    }
+}
+@media screen and (max-width:2500px){
+
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 4rem;
+
+    }
+}
+@media screen and (max-width:2300px){
+    .resources-secondary-title{
+        padding: 3% 25%;
+    }
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3.7rem;
+
+    }
+}
+
+@media screen and (max-width:2100px){
+    .resources-secondary-title{
+        padding: 3% 25%;
+    }
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3.4rem;
+
+    }
+}
+
+@media screen and (max-width:1900px){
+    .resources-secondary-title{
+        padding: 3% 25%;
+    }
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3rem;
+
+    }
+}
+
+
+@media screen and (max-width:1700px){
+    .resources-secondary-title{
+        padding: 3% 25%;
+    }
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.7rem;
+
+    }
+}
+
+@media screen and (max-width:1400px){
+    .resources-secondary-title{
+        padding: 3% 25%;
+    }
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.4rem;
+
+    }
+}
+
+@media screen and (max-width:1100px){
+    .resources-secondary-title{
+        padding: 4% 25%;
+    }
+    .resources-secondary-title h2{
+        text-align: center;
+        color:#1B365D;
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.1rem;
+
+    }
+}
+@media screen and (max-width:1000px){
+    .resources-secondary-title{
+        padding: 4% 22%;
+    }
+    .resources-secondary-title h2{
+
+        font-size: 2rem;
+
+    }
+}
+@media screen and (max-width:900px){
+    .resources-secondary-title{
+        padding: 4% 20%;
+    }
+    .resources-secondary-title h2{
+     
+        font-size: 2rem;
+
+    }
+}
+@media screen and (max-width:800px){
+    .resources-secondary-title{
+        padding: 5% 15%;
+    }
+    .resources-secondary-title h2{
+  
+        font-size: 1.8rem;
+
+    }
+}
+@media (max-width: 700px){
+    .resources-secondary-title{
+        padding: 5% 12%;
+    }
+}
+
+@media (max-width: 600px){
+    .resources-secondary-title{
+        padding: 6% 5%;
+    }
+}
+
+@media (max-width: 500px){
+    .resources-secondary-title{
+        padding: 6% 5%;
+    }
+    .resources-secondary-title h2{
+  
+        font-size: 1.6rem;
+
+    }
+}

@@ -1,0 +1,237 @@
+.ContactTab{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 0;
+}
+.ContactTab .left, .ContactTab .right{
+    width: 50%;
+}
+.ContactTab .left{
+    padding: 0 5%;
+}
+.ContactTab .left h2{
+    /* padding: 0 5%; */
+    font-size: 5rem;
+    font-family: 'Built-Tilting-Bold';
+    color: #1B365D;
+}
+.ContactTab .right{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10%;
+}
+.ContactTab .right p{
+    color: #1B365D;
+    font-size: 1.7rem;
+    line-height: 3.5rem;
+    
+}
+.ContactTab .contact-links{
+    width: 100%;
+    margin-top: 5%;
+}
+.contact-links .cta-button{
+    margin: 0 2%;
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+.contact-tabs .service-tab{
+    width: 25%;
+}
+
+
+
+@media screen and (max-width: 2600px) {
+    .ContactTab{
+        padding: 4% 0;
+    }
+    .ContactTab .left h2{
+        /* padding: 0 5%; */
+        font-size: 4.5rem;
+    
+    }
+    .ContactTab .right p{
+
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+        
+    }
+    .contact-links .cta-button{
+        width: 40%;
+        font-size: 1.4rem;
+    }
+}
+
+
+@media screen and (max-width: 2300px) {
+    .ContactTab{
+        padding: 4% 0;
+    }
+    .ContactTab .left h2{
+        /* padding: 0 5%; */
+        font-size: 4rem;
+    
+    }
+    .ContactTab .right p{
+
+        font-size: 1.4rem;
+        line-height: 3.2rem;
+        
+    }
+    .contact-links .cta-button{
+        width: 40%;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 2100px) {
+    .ContactTab{
+        padding: 4% 0;
+    }
+    .ContactTab .left h2{
+        /* padding: 0 5%; */
+        font-size: 3.7rem;
+    
+    }
+    .ContactTab .right p{
+
+        font-size: 1.3rem;
+        line-height: 3rem;
+        
+    }
+    .contact-links .cta-button{
+        width: 40%;
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 1900px) {
+    .ContactTab{
+        padding: 4% 0;
+    }
+    .ContactTab .left h2{
+        /* padding: 0 5%; */
+        font-size: 3.4rem;
+    
+    }
+    .ContactTab .right p{
+
+        font-size: 1.2rem;
+        line-height: 2.7rem;
+        
+    }
+    .contact-links .cta-button{
+        width: 40%;
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1700px) {
+    .ContactTab{
+        padding: 4% 0;
+    }
+    .ContactTab .left h2{
+        /* padding: 0 5%; */
+        font-size: 3rem;
+    
+    }
+    .ContactTab .right p{
+
+        font-size: 1rem;
+        line-height: 2.5rem;
+        
+    }
+    .contact-links .cta-button{
+        width: 40%;
+        height: 100%;
+        line-height: 3;
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .ContactTab{
+        padding: 4% 0;
+    }
+    .ContactTab .left h2{
+        /* padding: 0 5%; */
+        font-size: 2.7rem;
+    
+    }
+    .ContactTab .right p{
+
+        font-size: 1rem;
+        line-height: 2.5rem;
+        
+        
+    }
+    .ContactTab .right{
+        padding-right: 3%;
+    }
+    .contact-links .cta-button{
+        width: 40%;
+        height: 100%;
+        line-height: 3;
+        font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .ContactTab .left h2{
+        /* padding: 0 5%; */
+        font-size: 2.4rem;
+    
+    }
+    .ContactTab .right p{
+
+        font-size: .9rem;
+        line-height: 2.2rem;
+        
+        
+    }
+    .contact-links .cta-button{
+        width: 40%;
+        height: 100%;
+        line-height: 3;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ContactTab .left, .ContactTab .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .ContactTab .right p{
+        padding: 0 20%;
+        margin: 1% 0;
+        line-height: 2.5rem;
+    }
+    .ContactTab .left{
+        padding: 0;
+    }
+    .ContactTab .contact-links{
+        width: 100%;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .ContactTab .left h2{
+        padding: 0 20%;
+
+    }
+}
+@media screen and (max-width: 800px) {
+    .ContactTab .right p{
+        padding: 0 10%;
+        margin: 1% 0;
+        line-height: 2.2rem;
+    }
+}

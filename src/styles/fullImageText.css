@@ -1,0 +1,4795 @@
+/*
+  Warning: This component is shared and utilized across the entire project.
+  Configure according to page.
+  About - .about | .about-hero
+  Resources - .resources | .resources-hero
+  Project Management & Quality - .PMQ | .PMQ-hero
+
+
+  Need to add to ReadMe file.
+*/
+
+
+.full-image-text {
+    background-size: cover;
+    height: 55vh;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+width: 100%;
+}
+
+
+
+.full-image-text .content span{
+    font-family: 'Built-Tilting-Bold';
+
+}
+.full-image-text .content h2{
+    font-family: 'Built-Tilting-Regular';
+
+}
+.center-cta{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cta-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.full-image-text .cta-button{
+    width: 30%;
+}
+
+
+/* Homepage */
+.homepage-image-section-0{
+    height: auto;
+}
+.homepage-image-section-0 .homepage{
+    font-size: 1.7rem;
+    padding: 4% 15%;
+    line-height: 3.5rem;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.homepage-image-section-1 .homepage{
+    padding-top: 5%;
+    line-height:5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 3% 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homepage-image-section-1 .homepage p:first-child{
+    margin-bottom: 30px;
+}
+.full-image-text .cta-button{
+    margin-top: 60px;
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+    font-size: 1.5rem;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+.home-page .tab-image-container{
+    max-width: 200px;
+    margin: auto;
+}
+
+/* About */
+.full-image-text .about{
+    padding-top: 4%;
+}
+.full-image-text .about span{
+    font-size: 4rem;
+}
+.full-image-text .about h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.about-image-section-0{
+    height: 1000px;
+}
+.about-image-section-0 .text{
+    font-size: 1.8rem;
+    padding: 0 10%;
+}
+
+/* Services */
+.full-image-text .services{
+    padding: 5% 30px;
+    max-width: 1220px;
+}
+.full-image-text .services .text{
+    column-count: 2;
+    padding: 0;
+}
+.full-image-text .services .text p{
+    padding-bottom: 20px;
+}
+.full-image-text .services .text p:last-child{
+    padding-bottom: 0;
+}
+.full-image-text .services .cta-button{
+    background: #C08F56;
+}
+.full-image-text .services .cta-button:before{
+    background: #C08F56;
+}
+.services-image-section-0{
+    height: auto;
+}
+
+/* Welding */
+.services-Welding-image-section-0 .content{
+    padding: 3% 0;
+}
+.services-Welding-image-section-0 .content h2{
+    font-size: 7rem;
+    margin-bottom: 50px;
+}
+.services-Welding-image-section-0 .content li{
+    font-size: 1.8rem;
+    line-height: 5rem;
+}
+/* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-fort-worth-image-section-0{
+    height: auto;
+}
+.locations-fort-worth-image-section-0 .content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100%;
+}
+.locations-fort-worth-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-tennessee-image-section-0{
+    height: auto;
+}
+.locations-tennessee-image-section-0 .content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100%;
+}
+.locations-tennessee-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0{
+    height: auto;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-kansas-image-section-0{
+    height: auto;
+}
+.locations-kansas-image-section-0 .content{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 100%;
+}
+.locations-kansas-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+/* PMQ */
+.PMQ-image-section-0::before, .PMQ-image-section-1::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.PMQ-image-section-0 .cta-button{
+    background-color: #C08F56;
+    font-size: 1.5rem;
+    width: 15%;
+    height: 70px;
+    line-height: 70px;
+}
+.PMQ-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.PMQ-image-section-0, .PMQ-image-section-1{
+    height: auto;
+}
+.PMQ-image-section-0 .content, .PMQ-image-section-1 .content{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 100%;
+}
+.PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+    font-size: 1.7rem;
+    padding: 0 15%;
+    line-height: 4rem;
+}
+.PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+    font-size: 6rem;
+    padding: 0 28%;
+    text-align: center;
+
+
+}
+.PMQ-image-section-1 h2{
+    color: #1B365D;
+}
+.PMQ-image-section-1 .text{
+    color: #1B365D;
+}
+
+/* Services */
+.services-image-section-0::before, .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+
+.services-image-section-0 .text{
+    padding: 0 10%;
+    font-size: 2rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 5rem;
+}
+
+
+
+/* Services Engineering */
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 5rem;
+    text-align: center;
+}
+
+/* Need to Polish Queries */
+
+@media screen and (max-width: 2750px){
+
+
+
+
+
+    /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 10%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+    /* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+
+    /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 10%;
+    font-size: 2rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 5rem;
+}
+
+
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 5rem;
+}
+
+
+}
+@media screen and (max-width: 2700px){
+
+/* About */
+.full-image-text .about{
+    padding-top: 4%;
+}
+.full-image-text .about span{
+    font-size: 4rem;
+}
+.full-image-text .about h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.about-image-section-0{
+
+}
+.about-image-section-0 .text{
+    font-size: 1.8rem;
+    padding: 0 10%;
+}
+
+
+/* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 10%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+    /* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0{
+        height: auto;
+    }
+
+    /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 10%;
+    font-size: 2rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 5rem;
+}
+
+
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3.7rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 4.5rem;
+}
+
+}
+@media screen and (max-width: 2600px){
+/* Homepage */
+.homepage-image-section-1{
+    height: auto;
+}
+.homepage-image-section-0 .homepage{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    padding: 4% 15%;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.homepage-image-section-1 .homepage{
+
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    padding: 4% 20%;
+}
+.full-image-text .cta-button{
+    margin-top: 60px;
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+    height: 70px;
+    line-height: 70px;
+    width: 20%;
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+
+
+
+/* About */
+.full-image-text .about{
+    padding-top: 4%;
+}
+.full-image-text .about span{
+    font-size: 4rem;
+}
+.full-image-text .about h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.about-image-section-0{
+    height: 920px;
+}
+.about-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+}
+
+
+/* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 7%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+
+    /* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .content h2{
+        font-size: 5.5rem;
+    }
+    .PMQ-image-section-0 .text{
+        font-size: 1.5rem;
+    }
+
+
+
+    /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 10%;
+    font-size: 1.7rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 4rem;
+}
+
+.services-Welding-image-section-0 .content h2{
+    font-size: 6rem;
+}
+.services-Welding-image-section-0 .content li{
+    font-size: 1.6rem;
+}
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3.7rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 4.5rem;
+}
+}
+@media screen and (max-width: 2550px){
+
+
+    /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 7%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+/* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+
+        /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 20%;
+    font-size: 1.5rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3.7rem;
+}
+
+
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3.7rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 4.5rem;
+}
+}
+@media screen and (max-width: 2500px){
+/* About */
+.full-image-text .about{
+    padding-top: 4%;
+}
+.full-image-text .about span{
+    font-size: 4rem;
+}
+.full-image-text .about h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.about-image-section-0{
+    height: 920px;
+}
+.about-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+}
+
+
+    /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 7%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+/* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+        font-size: 1.3rem;
+    }
+
+    /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 20%;
+    font-size: 1.5rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3.7rem;
+}
+
+
+
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3.7rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 4.5rem;
+}
+}
+
+@media screen and (max-width: 2400px){
+/* Homepage */
+.homepage-image-section-0 .homepage{
+    font-size: 1.5rem;
+    padding: 4% 15%;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.homepage-image-section-1 .homepage{
+
+    text-align: center;
+    font-size: 1.5rem;
+
+    line-height: 3.5rem;
+    padding: 4% 20%;
+}
+.full-image-text .cta-button{
+    margin-top: 60px;
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    height: 60px;
+    line-height: 60px;
+    width: 15%;
+
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+
+
+
+/* About */
+.full-image-text .about{
+    padding-top: 4%;
+}
+.full-image-text .about span{
+    font-size: 4rem;
+}
+.full-image-text .about h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.about-image-section-0{
+    height: 880px;
+}
+.about-image-section-0 .text{
+    font-size: 1.5rem;
+    padding: 0 10%;
+}
+
+    /* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+        font-size: 5rem;
+        padding: 0 25%;
+    }
+    .PMQ-image-section-0 .cta-button{
+        font-size: 1.3rem;
+        height: 60px;
+        line-height: 60px;
+    }
+
+        /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 7%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.7rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+        /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 20%;
+    font-size: 1.3rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3.5rem;
+}
+
+/* Welding */
+.services-Welding-image-section-0 .content{
+    padding: 3% 0;
+}
+.services-Welding-image-section-0 .content h2{
+    font-size: 5.5rem;
+}
+.services-Welding-image-section-0 .content li{
+    font-size: 1.4rem;
+    line-height: 4rem;
+}
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 4rem;
+}
+}
+@media screen and (max-width: 2300px){
+    /* Homepage */
+.homepage-image-section-0 .homepage{
+    font-size: 1.5rem;
+    padding: 4% 15%;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.homepage-image-section-1 .homepage{
+
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4% 20%;
+}
+.full-image-text .cta-button{
+    margin-top: 60px;
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+    margin-top: 40px;
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+
+
+
+/* About */
+.full-image-text .about{
+    padding-top: 3%;
+}
+.full-image-text .about span{
+    font-size: 4rem;
+}
+.full-image-text .about h2{
+    font-size: 3.5rem;
+    text-align: center;
+}
+.about-image-section-0{
+    height: 850px;
+}
+.about-image-section-0 .text{
+    font-size: 1.5rem;
+    padding: 0 10%;
+}
+
+
+        /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 7%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+/* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+        line-height: 3.2rem;
+
+    }
+    .PMQ-image-section-1 .content{
+        padding-top: 5%;
+    }
+
+
+        /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 20%;
+    font-size: 1.3rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3.5rem;
+}
+
+
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 4rem;
+}
+}
+
+
+@media screen and (max-width:2200px){
+
+    /* Homepage */
+
+    .homepage-image-section-0 .homepage{
+        font-size: 1.3rem;
+        padding: 4% 15%;
+        line-height: 3rem;
+    }
+    .homepage-image-section-0 .cta-button{
+        font-size: 1.3rem;
+        height: 50px;
+        line-height: 50px;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 4% 15%;
+    }
+    .full-image-text .cta-button{
+        margin-top: 60px;
+
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+        margin-top: 40px;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+
+/* About */
+.full-image-text .about{
+    padding-top: 3%;
+}
+.full-image-text .about span{
+    font-size: 3.5rem;
+}
+.full-image-text .about h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-image-section-0{
+    height: 880px;
+}
+.about-image-section-0 .text{
+    font-size: 1.4rem;
+    line-height: 3rem;
+    padding: 0 10%;
+}
+.about-image-section-0 .text li :nth-child(1){
+    margin-top: 30px;
+}
+
+
+     /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 7%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.6rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+    /* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+
+        /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 22%;
+    font-size: 1.1rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3.5rem;
+}
+
+.services-Welding-image-section-0 .content h2{
+    font-size: 5rem;
+}
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 13%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 4rem;
+}
+}
+@media screen and (max-width:2100px){
+
+     /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.5rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.5rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.5rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 6%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.5rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+    /* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-1 .content{
+        padding-top: 4%;
+    }
+    .PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+        font-size: 4.5rem;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+
+        /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 22%;
+    font-size: 1rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3.2rem;
+}
+
+
+/* Welding */
+.services-Welding-image-section-0 .content h2{
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+}
+.services-Welding-image-section-0 .content li{
+    font-size: 1.2rem;
+}
+
+   /* Services ENgineering */
+   .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 3.2rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 3.7rem;
+}
+}
+
+
+@media screen and (max-width:2000px) {
+
+    /* Homepage */
+    .homepage-image-section-0 .homepage{
+        font-size: 1.2rem;
+        padding: 4% 15%;
+        line-height: 2.7rem;
+    }
+    .homepage-image-section-0 .cta-button{
+        font-size: 1.1rem;
+        height: 40px;
+        line-height: 40px;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 4.5rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1.4rem;
+        padding: 4% 20%;
+    }
+    .full-image-text .cta-button{
+        margin-top: 60px;
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+        margin-top: 30px;
+        font-size: 1.1rem;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+    /* About */
+.full-image-text .about{
+    padding-top: 3%;
+}
+.full-image-text .about span{
+    font-size: 3.2rem;
+}
+.full-image-text .about h2{
+    font-size: 2.7rem;
+    text-align: center;
+}
+.about-image-section-0{
+    height: 830px;
+}
+.about-image-section-0 .text{
+    font-size: 1.2rem;
+    padding: 0 10%;
+}
+
+
+/* PMQ */
+.PMQ-image-section-1 .text, .PMQ-image-section-0 .text{
+    font-size: 1.1rem;
+}
+.PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+    font-size: 4rem;
+}
+.PMQ-image-section-0 .cta-button{
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+}
+}
+
+
+@media screen and (max-width:1900px){
+    /* Homepage */
+    .homepage-image-section-0 .homepage{
+
+        padding: 4% 12%;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 4.2rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 4% 12%;
+    }
+    .full-image-text .cta-button{
+        margin-top: 60px;
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+         /* Locations */
+.locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1.2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1.2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1.2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 6%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1.2rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+/* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+
+
+            /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 22%;
+    font-size: 1rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3rem;
+}
+
+
+  /* Services ENgineering */
+  .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 3.5rem;
+}
+
+
+
+/* Welding */
+.services-Welding-image-section-0 .content h2{
+    font-size: 4rem;
+}
+.services-Welding-image-section-0 .content li{
+    font-size: 1.1rem;
+}
+}
+
+
+@media screen and (max-width:1800px){
+    /* Homepage */
+    .homepage-image-section-0 .homepage{
+        font-size: 1.2rem;
+        padding: 4% 12%;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 3.7rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 4% 12%;
+    }
+    .full-image-text .cta-button{
+        margin-top: 50px;
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+
+    /* About */
+    .full-image-text .about{
+        padding-top: 3%;
+    }
+    .full-image-text .about span{
+        font-size: 3rem;
+    }
+    .full-image-text .about h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .about-image-section-0{
+        height: 780px
+    }
+    .about-image-section-0 .text{
+
+        padding: 0 10%;
+        line-height: 2.7rem;
+    }
+
+
+    /* Locations */
+    .locations-fort-worth-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-fort-worth-image-section-0 .text{
+    font-size: 1rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-kansas-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-kansas-image-section-0 .text{
+    font-size: 1rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-tennessee-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.locations-tennessee-image-section-0 .text{
+    font-size: 1rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.locations-mississippi-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.locations-mississippi-image-section-0 .content{
+    padding-top: 6%;
+    height: 100%;
+}
+.locations-mississippi-image-section-0 .text{
+    font-size: 1rem;
+    padding: 0 10%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+
+
+/* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+        font-size: 1rem;
+        line-height: 2.7rem;
+    }
+    .PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+        font-size: 3.7rem;
+    }
+
+
+ /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 18%;
+    font-size: 1rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 3rem;
+}
+
+
+  /* Services ENgineering */
+  .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 15%;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.7rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 3.2rem;
+}
+}
+
+@media screen and (max-width:1700px){
+
+/* Homepage */
+.homepage-image-section-0 .homepage{
+    font-size: 1rem;
+    padding: 4% 12%;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 3.7rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.homepage-image-section-1 .homepage{
+
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4% 12%;
+}
+
+.full-image-text .cta-button{
+    margin-top: 50px;
+    font-size: 1.1rem;
+
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 1rem;
+    line-height: 50px;
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+
+
+    /* About */
+    .full-image-text .about{
+        padding-top: 3%;
+    }
+    .full-image-text .about span{
+        font-size: 3rem;
+    }
+    .full-image-text .about h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .about-image-section-0{
+        height: 750px;
+    }
+    .about-image-section-0 .text{
+        line-height: 2.5rem;
+        padding: 0 10%;
+    }
+
+
+
+    /* Locations */
+    .locations-fort-worth-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-fort-worth-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .locations-kansas-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-kansas-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .locations-tennessee-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-tennessee-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .locations-mississippi-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-mississippi-image-section-0 .content{
+        padding-top: 6%;
+        height: 100%;
+    }
+    .locations-mississippi-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+
+
+/* PMQ */
+
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+.PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+    font-size: .9rem;
+}
+
+
+     /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 18%;
+    font-size: .9rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 2.8rem;
+}
+
+
+  /* Services ENgineering */
+  .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 14%;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 3rem;
+}
+
+
+
+.services-Welding-image-section-0 .content h2{
+    font-size: 3.7rem;
+}
+.services-Welding-image-section-0 .content li{
+    font-size: 1rem;
+    line-height: 3.5rem;
+}
+}
+
+
+@media screen and (max-width:1600px){
+
+
+/* Homepage */
+.homepage-image-section-0 .homepage{
+    font-size: 1rem;
+    padding: 4% 12%;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 3.7rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.homepage-image-section-1 .homepage{
+
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4% 12%;
+}
+
+.full-image-text .cta-button{
+    margin-top: 50px;
+    font-size: 1rem;
+
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+
+
+
+
+    /* About */
+    .full-image-text .about{
+        padding-top: 2%;
+    }
+    .full-image-text .about span{
+        font-size: 2.7rem;
+    }
+    .full-image-text .about h2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .about-image-section-0{
+        height: 650px;
+    }
+    .about-image-section-0 .text{
+        font-size: .9rem;
+        line-height: 2.2rem;
+        padding: 0 8%;
+    }
+
+
+
+    /* Locations */
+    .locations-fort-worth-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-fort-worth-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+
+    .locations-kansas-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-kansas-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .locations-tennessee-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-tennessee-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    .locations-mississippi-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .locations-mississippi-image-section-0 .content{
+        padding-top: 6%;
+        height: 100%;
+    }
+    .locations-mississippi-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+
+/* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+        line-height: 2.3rem;
+    }
+    .PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+        font-size: 3.2rem;
+    }
+
+
+
+     /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 18%;
+    font-size: .9rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 2.4rem;
+}
+
+  /* Services ENgineering */
+  .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 14%;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 3rem;
+}
+}
+
+
+@media screen and (max-width: 1500px) {
+/* Homepage */
+.homepage-image-section-0 .homepage{
+    font-size: 1rem;
+    padding: 4% 12%;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 3.7rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.homepage-image-section-1 .homepage{
+
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4% 12%;
+}
+
+.full-image-text .cta-button{
+    margin-top: 50px;
+    font-size: 1rem;
+
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+
+
+        /* About */
+        .full-image-text .about{
+            padding-top: 2%;
+        }
+        .full-image-text .about span{
+            font-size: 2.7rem;
+        }
+        .full-image-text .about h2{
+            font-size: 2.3rem;
+            text-align: center;
+        }
+        .about-image-section-0{
+            height: 640px;
+        }
+        .about-image-section-0 .text{
+            font-size: .9rem;
+            padding: 0 7%;
+        }
+}
+
+
+@media screen and (max-width:1400px){
+
+
+
+    /* Locations */
+    .locations-fort-worth-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-fort-worth-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+
+    .locations-kasnas-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-kasnas-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .locations-tennessee-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-tennessee-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .locations-mississippi-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .locations-mississippi-image-section-0 .content{
+        padding-top: 4%;
+        height: 100%;
+    }
+    .locations-mississippi-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+/* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+
+    }
+
+
+
+     /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-image-section-0 .text{
+    padding: 0 15%;
+    font-size: .9rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 2.4rem;
+}
+
+
+
+  /* Services ENgineering */
+  .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 12%;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2.3rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 2.7rem;
+}
+}
+
+@media screen and (max-width: 1300px) {
+    /* Homepage */
+.homepage-image-section-0 .homepage{
+    font-size: 1rem;
+    padding: 4% 8%;
+}
+.full-image-text .homepage{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+
+
+}
+.full-image-text .homepage h2{
+    font-size: 3.3rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.homepage-image-section-1 .homepage{
+
+    text-align: center;
+    font-size: 1rem;
+    padding: 4% 12%;
+}
+
+.full-image-text .cta-button{
+    margin-top: 30px;
+    font-size: 1rem;
+
+}
+.homepage-image-section-0 .cta-button{
+    background-color: #C08F56;
+}
+.homepage-image-section-0 .cta-button::before{
+    background-color: #C08F56;
+}
+.homepage-image-section-1 .cta-button{
+    background-color: #C18F56;
+}
+.homepage-image-section-1 .cta-button::before{
+    background-color: #C08F56;
+}
+
+
+
+/* About */
+.about-image-section-0{
+
+    height: 600px;
+}
+
+
+.PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+    padding: 3% 10%;
+}
+.PMQ-image-section-0 .cta-button{
+    height: 40px;
+    margin-top: 0;
+    line-height: 40px;
+    font-size: .8rem;
+}
+
+}
+
+
+@media screen and (max-width:1200px){
+
+    /* Homepage */
+    .homepage-image-section-0 .homepage{
+        font-size: 1rem;
+        padding: 4% 8%;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 3.3rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1rem;
+        line-height: 2.5rem;
+        padding: 4% 8%;
+    }
+
+    .full-image-text .cta-button{
+        margin-top: 30px;
+        font-size: 1rem;
+
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+        font-size: .9rem;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+
+
+        /* About */
+        .full-image-text .about{
+            padding-top: 2%;
+        }
+        .full-image-text .about span{
+            font-size: 2.7rem;
+        }
+        .full-image-text .about h2{
+            font-size: 2.3rem;
+            text-align: center;
+        }
+        .about-image-section-0{
+            height: auto;
+            padding-bottom: 30px;
+        }
+        .about-image-section-0 .text{
+            font-size: .9rem;
+            padding: 0 6%;
+        }
+        .about-image-section-0 .text li :nth-child(1){
+            margin-top: 20px;
+        }
+
+
+        /* Locations */
+        .locations-fort-worth-image-section-0::before{
+            content: '';
+            position: relative;
+            top: 0;
+            left: 0%;
+            width: 0%;
+            height: 0%;
+            background: rgba(192, 143, 86, 0.3);
+            -webkit-transform-origin: 0%;
+            -ms-transform-origin: 0%;
+            transform-origin: 0%;
+            -webkit-transform: skew(0deg);
+            -ms-transform: skew(0deg);
+            transform: skew(0deg);
+            z-index: 5;
+        }
+
+        .locations-fort-worth-image-section-0 .text{
+            font-size: 1rem;
+            padding: 0 10%;
+            line-height: 3rem;
+            text-align: center;
+        }
+
+
+        .locations-kansas-image-section-0::before{
+            content: '';
+            position: relative;
+            top: 0;
+            left: 0%;
+            width: 0%;
+            height: 0%;
+            background: rgba(192, 143, 86, 0.3);
+            -webkit-transform-origin: 0%;
+            -ms-transform-origin: 0%;
+            transform-origin: 0%;
+            -webkit-transform: skew(0deg);
+            -ms-transform: skew(0deg);
+            transform: skew(0deg);
+            z-index: 5;
+        }
+
+        .locations-kansas-image-section-0 .text{
+            font-size: 1rem;
+            padding: 0 10%;
+            line-height: 3rem;
+            text-align: center;
+        }
+
+        .locations-tennessee-image-section-0::before{
+            content: '';
+            position: relative;
+            top: 0;
+            left: 0%;
+            width: 0%;
+            height: 0%;
+            background: rgba(192, 143, 86, 0.3);
+            -webkit-transform-origin: 0%;
+            -ms-transform-origin: 0%;
+            transform-origin: 0%;
+            -webkit-transform: skew(0deg);
+            -ms-transform: skew(0deg);
+            transform: skew(0deg);
+            z-index: 5;
+        }
+
+        .locations-tennessee-image-section-0 .text{
+            font-size: 1rem;
+            padding: 0 10%;
+            line-height: 3rem;
+            text-align: center;
+        }
+
+        .locations-mississippi-image-section-0::before{
+            content: '';
+            position: relative;
+            top: 0;
+            left: 0%;
+            width: 0%;
+            height: 0%;
+            background: rgba(192, 143, 86, 0.3);
+            -webkit-transform-origin: 0%;
+            -ms-transform-origin: 0%;
+            transform-origin: 0%;
+            -webkit-transform: skew(0deg);
+            -ms-transform: skew(0deg);
+            transform: skew(0deg);
+            z-index: 5;
+        }
+        .locations-mississippi-image-section-0 .content{
+            padding-top: 4%;
+            height: 100%;
+        }
+        .locations-mississippi-image-section-0 .text{
+            font-size: 1rem;
+            padding: 0 10%;
+            line-height: 3rem;
+            text-align: center;
+        }
+
+
+    /* PMQ */
+
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+        padding: 0 15%;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+        padding: 2% 10%;
+    }
+    .PMQ-image-section-0 .cta-button{
+        font-size: .7rem;
+    }
+
+
+
+     /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.services-image-section-0 .text{
+    padding: 0 10%;
+    font-size: .9rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 2.1rem;
+}
+
+/* Welding */
+.services-Welding-image-section-0 .content h2{
+    font-size: 3.5rem;
+}
+
+
+  /* Services ENgineering */
+  .services-Engineering-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+
+.services-Engineering-image-section-0 .text{
+    padding: 0 8%;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 2.7rem;
+}
+}
+@media screen and (max-width:1100px){
+    /* Homepage */
+    .homepage-image-section-0 .homepage{
+        font-size: 1rem;
+        padding: 4% 8%;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 3.3rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1rem;
+        padding: 4% 5%;
+    }
+
+    .full-image-text .cta-button{
+        margin-top: 30px;
+        font-size: 1rem;
+
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+
+
+
+        /* About */
+        .full-image-text .about{
+            padding-top: 4%;
+        }
+        .full-image-text .about span{
+            font-size: 2.7rem;
+        }
+        .full-image-text .about h2{
+            font-size: 2.3rem;
+            text-align: center;
+        }
+        .about-image-section-0 .text{
+            font-size: 1rem;
+            padding: 0 5%;
+        }
+
+
+       /* Locations */
+       .locations-fort-worth-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-fort-worth-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+
+    .locations-kansas-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-kansas-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .locations-tennessee-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-tennessee-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .locations-mississippi-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .locations-mississippi-image-section-0 .content{
+        padding-top: 3%;
+        height: 100%;
+    }
+    .locations-mississippi-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+
+
+    /* PMQ */
+    .PMQ-image-section-0::before, .PMQ-image-section-1::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .PMQ-image-section-0 .cta-button{
+        font-size: .8rem;
+    }
+    .PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+        padding: 2% 7%;
+    }
+
+
+
+         /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.services-image-section-0 .text{
+    padding: 0 10%;
+    font-size: .8rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 2rem;
+}
+
+/* Services Engineering */
+.services-Engineering-image-section-0 .text{
+    padding: 0 8%;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 2.7rem;
+}
+}
+
+
+@media screen and (max-width:1000px) {
+    /* Homepage */
+
+    .homepage-image-section-0 .homepage{
+        font-size: 1rem;
+        padding: 8% 5%;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1rem;
+        padding: 5% 5%;
+    }
+
+    .full-image-text .cta-button{
+        margin-top: 10px;
+        font-size: 1rem;
+
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+        font-size: .8rem;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+    /* Services Welding */
+    .services-Welding-image-section-0 .content{
+        padding: 5% 0;
+    }
+    .services-Welding-image-section-0 .content h2{
+        font-size: 3.2rem;
+    }
+
+
+    /* About */
+    .full-image-text .about{
+        padding-top: 4%;
+    }
+    .full-image-text .about span{
+        font-size: 2.4rem;
+    }
+    .full-image-text .about h2{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    .about-image-section-0 .text{
+        font-size: .9rem;
+        padding: 0 5%;
+    }
+
+    /* Services */
+    .services-Engineering-image-section-0{
+        height: auto;
+        padding: 30px 0;
+    }
+
+
+    .PMQ-image-section-0 .cta-button{
+        font-size: .8rem;
+        width: 20%;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    /* Homepage */
+    .homepage-image-section-0 .homepage{
+        font-size: 1rem;
+        padding: 8% 5%;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1rem;
+        padding: 5% 5%;
+    }
+
+    .full-image-text .cta-button{
+        margin-top: 20px;
+        font-size: 1rem;
+        width: 50%;
+
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+
+    /* About */
+    .full-image-text .about{
+        padding-top: 4%;
+    }
+    .full-image-text .about span{
+        font-size: 2.4rem;
+    }
+    .full-image-text .about h2{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    .about-image-section-0 .text{
+        font-size: .9rem;
+        padding: 0 5%;
+    }
+
+
+       /* Locations */
+       .locations-fort-worth-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-fort-worth-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .locations-kansas-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-kansas-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .locations-tennessee-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+
+    .locations-tennessee-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .locations-mississippi-image-section-0::before{
+        content: '';
+        position: relative;
+        top: 0;
+        left: 0%;
+        width: 0%;
+        height: 0%;
+        background: rgba(192, 143, 86, 0.3);
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        transform-origin: 0%;
+        -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+        transform: skew(0deg);
+        z-index: 5;
+    }
+    .locations-mississippi-image-section-0 .content{
+        padding-top: 3%;
+        height: 100%;
+    }
+    .locations-mississippi-image-section-0 .text{
+        font-size: 1rem;
+        padding: 0 10%;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+
+    /* PMQ */
+.PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+    font-size: 3rem;
+}
+.PMQ-image-section-0 .cta-button{
+    font-size: .9rem;
+}
+.PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+    line-height: 2rem;
+}
+
+
+
+         /* Services */
+.services-image-section-0::before{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 0%;
+    height: 0%;
+    background: rgba(192, 143, 86, 0.3);
+    -webkit-transform-origin: 0%;
+    -ms-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: 5;
+}
+.services-image-section-0 .text{
+    padding: 0 10%;
+    font-size: .8rem;
+}
+.services-image-section-0 .content h2{
+    font-size: 2rem;
+}
+
+/* Services Engineering */
+.services-Engineering-image-section-0 .text{
+    padding: 0 8%;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width: 800px) {
+       /* Homepage */
+    .homepage-image-section-0 .homepage{
+        font-size: 1rem;
+        line-height: 2.5rem;
+        padding: 8% 4%;
+    }
+    .full-image-text .homepage{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+
+
+
+    }
+    .full-image-text .homepage h2{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .homepage-image-section-1 .homepage{
+
+        text-align: center;
+        font-size: 1rem;
+        padding: 5% 5%;
+    }
+
+    .full-image-text .cta-button{
+        margin-top: 30px;
+        font-size: 1rem;
+        width: 50%;
+
+    }
+    .homepage-image-section-0 .cta-button{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-0 .cta-button::before{
+        background-color: #C08F56;
+    }
+    .homepage-image-section-1 .cta-button{
+        background-color: #C18F56;
+    }
+    .homepage-image-section-1 .cta-button::before{
+        background-color: #C08F56;
+    }
+
+
+
+    .PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+        padding: 0 10%;
+    }
+
+    .full-image-text .services .cta-button{
+        width: 80%;
+    }
+
+        /* Services Welding */
+        .services-Welding-image-section-0 .content{
+            padding: 7% 0;
+        }
+        .services-Welding-image-section-0 .content h2{
+            font-size: 3rem;
+        }
+        .services-Welding-image-section-0 .content li{
+            font-size: .9rem;
+        }
+
+}
+@media screen and (max-width: 800px) { 
+    /* Homepage */
+    .full-image-text .cta-button{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width:700px){
+
+/* Homepage */
+.homepage-image-section-0 .homepage{
+    line-height: 2.3rem;
+    padding: 6% 3%;
+    font-size: .9rem;
+}
+
+    /* About */
+    .full-image-text .about{
+        padding-top: 4%;
+    }
+    .full-image-text .about span{
+        font-size: 2.4rem;
+    }
+    .full-image-text .about h2{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    .about-image-section-0 .text{
+        font-size: .9rem;
+        padding: 0 5%;
+        line-height: 1.5rem;
+    }
+
+
+.PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+    padding: 0 8%;
+
+}
+.PMQ-image-section-0 .text, .PMQ-image-section-1 .text{
+    line-height: 1.8rem;
+}
+
+
+
+    /* Services Engineering */
+.services-Engineering-image-section-0 .text{
+    padding: 0 8%;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.services-Engineering-image-section-0 .content h2{
+    font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .homepage-image-section-0 .homepage{
+        padding: 8% 3%;
+    }
+    .PMQ-image-section-0 .content h2, .PMQ-image-section-1 .content h2{
+        padding: 0 8%;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homepage-image-section-0 .homepage h2{
+        padding: 0 20%;
+        margin-bottom: 30px;
+    }
+    .homepage-image-section-0 .content{
+        font-size: .8rem;
+    }
+    .homepage-image-section-0 .homepage .text ul{
+  
+        padding-left: 20px;
+    }
+    .homepage-image-section-1 .homepage h2{
+        padding: 0 20%;
+        margin-bottom: 20px;
+    }
+    .homepage-image-section-1 .cta-button{
+        margin-top: 0;
+    }
+    .services-Welding-image-section-0 .content h2{
+        font-size: 2.5rem;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .homepage-image-section-1 .homepage h2{
+        padding: 0 15%;
+    }
+    .services-Welding-image-section-0 .content h2{
+        font-size: 2.2rem;
+    }
+    .services-Welding-image-section-0 .content li{
+        font-size: .8rem;
+        line-height: 3rem;
+    }
+}
+
+@media(max-width: 400px){
+    .homepage-image-section-0 .homepage h2{
+        padding: 0 15%;
+        font-size: 2.7rem;
+    }
+    .homepage-image-section-1 .homepage p{
+        font-size: .9rem;
+    }
+    .about-image-section-0 .content h2{
+        padding: 0 7%;
+        
+    }
+    .about-image-section-0 .content ul{
+        padding: 0;
+        padding-left: 20px;
+        
+    }
+    .about-image-section-0 .content ul:nth-child(1){
+        padding: 0;
+        padding-left: 30px;
+        
+    }
+    .services-Welding-image-section-0 .content h2{
+        font-size: 2rem;
+    }
+    .services-Welding-image-section-0 .content li{
+        font-size: .8rem;
+        line-height: 3rem;
+    }
+    
+}
+@media(max-width: 350px){
+    .homepage-image-section-0 .homepage h2{
+        padding: 0 10%;
+    }
+    .homepage-image-section-1 .homepage h2{
+        padding: 0 10%;
+        font-size: 2.5rem;
+    }
+    .homepage-image-section-1 .homepage p{
+        line-height: 2.2rem;
+    }
+}
+
+

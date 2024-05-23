@@ -1,0 +1,443 @@
+.type-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+
+  background-image: url(../../images/blueprint-white.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #1b365d;
+}
+.type-tabs-top{
+  width: 100%;
+  padding: 2% 10% 5% 10%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  margin-bottom: 3%;
+}
+
+.type-tabs-top h2{
+  font-size: 5rem;
+  font-family: 'Built-Tilting-Bold';
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.type-tab-0, .type-tab-1, .type-tab-2{
+  width: 33%;
+  text-align: center;
+  padding: 2%;
+}
+
+.type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+  width: 80%;
+  margin: auto;
+}
+
+
+.type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  text-transform: uppercase;
+  font-family: 'Gotham-Bold';
+  font-size: 2rem;
+  margin-bottom: 30px;
+  
+}
+.type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+  font-family: 'Gotham-Medium';
+  font-size: 1.5rem;
+  
+}
+
+.type-tab-0 .text, .type-tab-1 .text, .type-tab-2 .text{
+  padding: 30px 0;
+  
+}
+@media screen and (max-width: 2600px) {
+  .type-tabs{
+    padding: 3% 5% 5% 5%;
+  }
+  .type-tabs-top{
+    width: 100%;
+    padding: 2% 10% 5% 10%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.7rem;
+    margin-bottom: 3%;
+  }
+  
+  .type-tabs-top h2{
+    font-size: 4.5rem;
+    font-family: 'Built-Tilting-Bold';
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media(max-width:2500px){
+
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 70%;
+    margin: auto;
+  }
+  
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 2rem;
+    margin-bottom: 30px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: 1.4rem;
+    
+  }
+}
+
+@media(max-width:2200px){
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 60%;
+    margin: auto;
+  }
+  
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: 1.3rem;
+    
+  }
+  .type-tabs{
+    padding: 3% 5% 5% 5%;
+  }
+  .type-tabs-top{
+    width: 100%;
+    padding: 2% 10% 5% 10%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+  }
+  
+  .type-tabs-top h2{
+    font-size: 4.5rem;
+    font-family: 'Built-Tilting-Bold';
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width:2100px) {
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 50%;
+    margin: auto;
+  }
+  
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: 1.2rem;
+    
+  }
+}
+@media screen and (max-width:1900px) {
+  .type-tabs{
+    padding: 3% 5% 5% 5%;
+  }
+  .type-tabs-top{
+    width: 100%;
+    padding: 2% 10% 5% 10%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+  }
+  
+  .type-tabs-top h2{
+    font-size: 4rem;
+    font-family: 'Built-Tilting-Bold';
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 50%;
+    margin: auto;
+  }
+  
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: 1.1rem;
+    
+  }
+}
+@media(max-width:1700px){
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 45%;
+    margin: auto;
+  }
+  
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: 1rem;
+    
+  }
+  .type-tab-0 .cta-button, .type-tab-1 .cta-button, .type-tab-2 .cta-button{
+    text-align: center;
+    padding: 0%;
+    width: 180px;
+    height: 45px;
+    line-height: 48px;
+    font-size: .8rem;
+  }
+  .type-tabs{
+    padding: 3% 5% 3% 5%;
+  }
+  .type-tabs-top{
+    width: 100%;
+    padding: 1% 10% 5% 10%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    margin-bottom: 3%;
+  }
+  
+  .type-tabs-top h2{
+    font-size: 3.5rem;
+    font-family: 'Built-Tilting-Bold';
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 40%;
+    margin: auto;
+  }
+  
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: .9rem;
+    
+  }
+  .type-tab-0 .cta-button, .type-tab-1 .cta-button, .type-tab-2 .cta-button{
+    text-align: center;
+    padding: 0%;
+    width: 180px;
+    height: 45px;
+    line-height: 48px;
+    font-size: .8rem;
+  }
+  .type-tabs{
+    padding: 3% 5% 3% 5%;
+  }
+  .type-tabs-top{
+    width: 100%;
+    padding: 1% 10% 5% 10%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    margin-bottom: 3%;
+  }
+  
+  .type-tabs-top h2{
+    font-size: 3rem;
+    font-family: 'Built-Tilting-Bold';
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+
+@media(max-width:1200px){
+  .type-tabs{
+    padding: 2%;
+  }
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 40%;
+    margin: auto;
+  }
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: .9rem;
+    
+  }
+}
+@media screen and (max-width: 1100px) {
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 35%;
+    margin: auto;
+  }
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.0rem;
+    margin-bottom: 15px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: .8rem;
+    
+  }
+}
+
+
+@media(max-width: 1000px){
+  .type-tabs-top{
+    
+    padding: 2% 5% 5% 5%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    
+    
+  }
+  .type-tabs-top h2{
+    margin-bottom: 40px;
+  }
+  .type-tabs{
+    flex-wrap: wrap;
+    padding: 2% 10%;
+  }
+  .type-tab-0, .type-tab-1, .type-tab-2{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 45%;
+    margin: auto;
+  }
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: 1rem;
+    
+  }
+}
+
+
+@media(max-width: 900px){
+  .type-tabs{
+    flex-wrap: wrap;
+
+  }
+  .type-tab-0, .type-tab-1, .type-tab-2{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 45%;
+    margin: auto;
+  }
+  .type-tab-0 h2, .type-tab-1 h2, .type-tab-2 h2{
+  
+    font-size: 1.0rem;
+    margin-bottom: 15px;
+    
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+
+    font-size: .8rem;
+    
+  } */
+  .type-tab-0 .cta-button, .type-tab-1 .cta-button, .type-tab-2 .cta-button{
+
+    padding: 0%;
+    width: 180px;
+    height: 40px;
+    line-height: 43px;
+    font-size: .7rem;
+  }
+}
+@media(max-width:800px){
+  .type-tabs{
+    flex-wrap: wrap;
+    padding: 2% 5%;
+  }
+}
+@media (max-width: 700px) {
+  .type-tabs-top{
+    font-size: .9rem;
+    line-height: 2rem;
+  }
+  .type-tabs-top h2{
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+}
+@media (max-width:650px){
+  .type-tabs{
+    flex-wrap: wrap;
+    padding: 2% 2%;
+  }
+}
+
+@media (max-width: 600px){
+  .type-tabs-top h2{
+    line-height: 3rem;
+    font-size: 2.7rem;
+  }
+  .type-tabs-top{
+    font-size: .9rem;
+    line-height: 1.7rem;
+  }
+  .type-tab-0 p, .type-tab-1 p, .type-tab-2 p{
+    font-size: .9rem;
+  }
+}
+
+@media (max-width: 500px){
+  .type-tabs-top h2{
+    margin-bottom: 20px;
+  }
+  .type-tabs-top ul{
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 400px){
+  .type-tabs-top h2{
+    margin-bottom: 20px;
+  }
+  .type-tabs-top ul{
+    padding-left: 10px;
+  }
+  .type-tabs-top{
+    font-size: .8rem;
+  }
+  .type-tab-0 img, .type-tab-1 img, .type-tab-2 img{
+    width: 80px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,401 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background: #1b365d;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gotham-Medium';
+}
+
+.footer-left, .footer-right {
+    /* margin: 10px 20px; */
+    width: 50%;
+}
+
+.footer-left {
+    font-size: 1.2rem;
+
+}
+.footer-right{
+    padding: 20px 60px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-auto-flow: column;
+
+    padding: 20px 60px;
+}
+
+.footer-nav a {
+    margin: 10px;
+    width: 20%;
+}
+
+.footer-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 11%;
+}
+.footer-center h3{
+    margin-left: 12%;
+}
+.footer-center a{
+    text-decoration: underline;
+}
+.footer-left .facebook-logo{
+    font-family: 'Social-Circles';
+    font-size: 100px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.footer-contact-info {
+    margin-left: 12%;
+    line-height: 1.4rem;
+    display: flex;
+    width: 150%;
+    font-size: .7vw;
+    position: relative;
+}
+.footer-contact-info p{
+    margin-right: 90px;
+}
+/* .footer-contact-info a{
+
+} */
+.footer-heading {
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 10px 0 0 10px;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    position: relative;
+}
+
+.footer-right h4 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: 1.8rem;
+    font-family: 'Gotham-Bold';
+}
+
+.footer-right input {
+    padding: 0 20px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 0;
+    border: none;
+    color: #333;
+    width: 40%;
+    font-family: 'Gotham-Book';
+}
+
+
+/* Need to configure */
+
+.footer-right button {
+    background: #C08f56;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    width: 20%;
+    border-right: var(--btn-angle) solid #1b365d;
+    right: calc(var(--btn-angle) * -1);
+    font-family: 'Gotham-Bold';
+}
+.footer-right button:before{
+    background: #C08f56;
+}
+@media screen and (max-width:2300px) {
+    .footer-left {
+        font-size: 1rem;
+
+    }
+}
+
+@media(max-width:1800px){
+    .footer-left {
+        font-size: .8rem;
+
+    }
+    .footer-right h4 {
+        font-size: 1.0rem;
+        text-transform: uppercase;
+        font-weight: 200;
+        line-height: 1.8rem;
+        font-family: 'Gotham-Bold';
+    }
+    .footer-heading {
+        font-size: 2.5rem;
+        font-weight: 200;
+        margin: 10px 0 0 10px;
+    }
+    .footer-right p{
+        font-size: .9rem;
+    }
+}
+
+@media(max-width:1500px){
+    .footer-right h4 {
+        font-size: .9rem;
+
+        font-weight: 200;
+        line-height: 1.8rem;
+
+    }
+    .footer-heading {
+        font-size: 2.2rem;
+        font-weight: 200;
+        margin: 10px 0 0 0px;
+    }
+    .footer-right p{
+        font-size: .8rem;
+    }
+
+    .footer-right input {
+        padding: 5px;
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+
+        width: 50%;
+
+    }
+
+
+    /* Need to configure */
+
+    .footer-right input[type=submit] {
+
+
+        width: 30%;
+
+    }
+    .footer-nav {
+
+
+        padding: 20px 40px;
+    }
+    .footer-center h3{
+        margin-left: 10%;
+    }
+
+    .footer-contact-info {
+        margin-left: 10%;
+        line-height: 1.2rem;
+    }
+
+}
+
+
+
+@media(max-width:1300px){
+    .footer-right button {
+        font-size: .8rem;
+        width: 35%;
+    }
+}
+
+
+@media(max-width:1000px){
+    .footer-contact-info {
+        font-size: .6rem;
+        flex-direction: column-reverse;
+    }
+    .footer-contact-info p{
+        margin-bottom: 20px;
+    }
+    .footer-right h4 {
+        font-size: .8rem;
+
+        font-weight: 200;
+        line-height: 1.5rem;
+
+    }
+    .footer-heading {
+        font-size: 2.0rem;
+        font-weight: 200;
+        margin: 10px 0 0 0px;
+    }
+    .footer-right p{
+        font-size: .7rem;
+    }
+
+    .footer-right input {
+        padding: 5px;
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+
+        width: 60%;
+      font-size: .7rem;
+    }
+
+
+    /* Need to configure */
+
+    .footer-right input[type=submit] {
+
+
+        width: 40%;
+
+    }
+    .footer-nav {
+
+        font-size: .7rem;
+        padding: 20px 40px;
+    }
+    .footer-center h3{
+        margin-left: 10%;
+    }
+
+    .footer-contact-info {
+        margin-left: 10%;
+        line-height: .8rem;
+        line-height: 1rem;
+    }
+
+}
+
+
+@media(max-width:900px){
+    .footer-right h4 {
+        font-size: .8rem;
+
+        font-weight: 200;
+        line-height: 1.5rem;
+
+    }
+    .footer-heading {
+        font-size: 2.0rem;
+        font-weight: 200;
+        margin: 10px 0 0 0px;
+    }
+    .footer-right p{
+        font-size: .7rem;
+    }
+
+    .footer-right input {
+        padding: 5px;
+
+        line-height: 1rem;
+
+        width: 60%;
+      font-size: .7rem;
+    }
+    .footer-nav a{
+        margin: 5px 5px;
+    }
+
+
+    /* Need to configure */
+
+    .footer-right input[type=submit] {
+
+
+        width: 40%;
+
+    }
+    .footer-nav {
+
+        font-size: .7rem;
+        padding: 20px 20px;
+    }
+    .footer-center h3{
+        margin-left: 10%;
+    }
+
+    .footer-contact-info {
+        margin-left: 10%;
+        line-height: .8rem;
+        line-height: 1rem;
+    }
+
+}
+
+
+
+
+
+@media(max-width:800px){
+    .footer-right h4 {
+        font-size: .8rem;
+        font-weight: 200;
+        line-height: 1.2rem;
+    }
+    .footer-heading {
+        font-size: 2.0rem;
+        font-weight: 200;
+        margin: 10px 0 0 0px;
+    }
+    .footer-nav a{
+        margin: 5px 5px;
+        width: auto;
+    }
+    .footer-left{
+        font-size: .7rem;
+    }
+    .footer-left .facebook-logo{
+        line-height: 90px;
+    }
+    .footer-center{
+        padding-bottom: 30px;
+    }
+    form{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .footer-right{
+        padding: 20px 20px;
+    }
+    .footer-right p{
+        font-size: .7rem;
+        padding: 20px 15px 20px 0px;
+    }
+    .footer-right input {
+        padding: 5px;
+        line-height: .9rem;
+        width: 100%;
+        font-size: .7rem;
+    }
+    .footer-right .cta-button{
+        width: 100%;
+        font-size: .7rem;
+        height: auto;
+        line-height: 1.5rem;
+    }
+    .footer-right button:before{
+        transform: none;
+    }
+    .footer-right input[type=submit] {
+        width: 40%;
+    }
+    .footer-nav {
+        justify-content: flex-start;
+        font-size: .7rem;
+    }
+    .footer-center h3{
+        margin-left: 10%;
+    }
+    .footer-contact-info {
+        margin-left: 10%;
+        line-height: .8rem;
+        line-height: 1rem;
+    }
+
+}

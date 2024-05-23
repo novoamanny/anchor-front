@@ -1,0 +1,426 @@
+/* Services */
+.services-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+
+    background-image: url(../../images/blueprint-white.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #1b365d;
+}
+.service-tab{
+    width: 30%;
+
+    text-align: center;
+    padding: 2%;
+}
+.services-tab-3, .services-tab-4{
+    width: 50%;
+    padding: 2% 10%;
+}
+.service-tab img{
+    width: 30%;
+    margin: auto;
+}
+.services-tab-1 img{
+    width: 18%;
+}
+.services-tab-3 img, .services-tab-4 img{
+    width: 25%;
+}
+.service-tab h2{
+    text-transform: uppercase;
+    font-family: 'Gotham-Bold';
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.service-tab p{
+    font-family: 'Gotham-Medium';
+    font-size: 1.5rem;
+}
+.service-tab .text{
+    padding: 30px 0;
+    min-height: 240px;
+}
+
+
+
+.locations-tabs{
+    width: 100%;
+}
+.locations-tabs h2{
+    font-family: 'Built-Tilting-Bold';
+    font-size: 5rem;
+    text-align: center;
+}
+
+.contact-tab img{
+    width: 100%;
+}
+.contact-tab p{
+    font-size: 1.7rem;
+    text-align: left;
+}
+.contact-tab .cta-button{
+    font-size: 1.5rem;
+    width: 50%;
+}
+@media screen and (max-width: 2700px) {
+    .contact-tab p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 2500px) {
+    .contact-tab h2{
+        font-size: 1.7rem;
+    }
+    .contact-tab p{
+        font-size: 1.4rem;
+    }
+    .contact-tab .cta-button{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width:2400px){
+    .service-tab img{
+        width: 25%;
+        margin: auto;
+    }
+    .services-tab-1 img{
+        width: 13%;
+    }
+    .services-tab-3 img, .services-tab-4 img{
+        width: 20%;
+    }
+    .service-tab h2{
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold';
+        font-size: 1.7rem;
+        margin-bottom: 30px;
+    }
+    .service-tab p{
+        font-family: 'Gotham-Medium';
+        font-size: 1.3rem;
+    }
+
+    .contact-tab img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 2200px) {
+    .contact-tab h2{
+        font-size: 1.5rem;
+    }
+    .contact-tab p{
+        font-size: 1.1rem;
+    }
+    .contact-tab .cta-button{
+        font-size: 1.1rem;
+        
+    }
+    .locations-tabs h2{
+        
+        font-size: 4rem;
+        
+    }
+}
+
+
+@media screen and (max-width:2000px){
+    .service-tab img{
+        width: 25%;
+        margin: auto;
+    }
+    .services-tab-1 img{
+        width: 13%;
+    }
+    .services-tab-3 img, .services-tab-4 img{
+        width: 20%;
+    }
+    .service-tab h2{
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold';
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .service-tab p{
+        font-family: 'Gotham-Medium';
+        font-size: 1.2rem;
+    }
+    .contact-tab img{
+        width: 100%;
+    }
+    .contact-tab h2{
+        font-size: 1.3rem;
+    }
+    .contact-tab p{
+        font-size: 1rem;
+    }
+    .contact-tab .cta-button{
+        font-size: 1rem;
+        
+    }
+}
+
+
+@media screen and (max-width:1800px){
+    .service-tab img{
+        width: 22%;
+        margin: auto;
+    }
+    .services-tab-1 img{
+        width: 12%;
+    }
+    .services-tab-3 img, .services-tab-4 img{
+        width: 17%;
+    }
+    .service-tab h2{
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold';
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .service-tab p{
+        font-family: 'Gotham-Medium';
+        font-size: 1.2rem;
+    }
+    .contact-tab img{
+        width: 100%;
+    }
+    .contact-tab h2{
+        font-size: 1.3rem;
+    }
+    .contact-tab p{
+        font-size: .9rem;
+    }
+    .contact-tab .cta-button{
+        font-size: 1rem;
+        height: 9%;
+        line-height: 3;
+    }
+}
+
+
+@media screen and (max-width:1500px){
+    .service-tab img{
+        width: 20%;
+        margin: auto;
+    }
+    .services-tab-1 img{
+        width: 11%;
+    }
+    .services-tab-3 img, .services-tab-4 img{
+        width: 15%;
+    }
+    .service-tab h2{
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold';
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+    .service-tab p{
+        font-family: 'Gotham-Medium';
+        font-size: 1rem;
+    }
+    .contact-tab img{
+        width: 100%;
+    }
+    .contact-tab h2{
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .contact-tab p{
+        font-size: .8rem;
+        
+    }
+    .contact-tab .cta-button{
+        font-size: .9rem;
+        height: 9%;
+        line-height: 3;
+    }
+    .locations-tabs h2{
+        
+        font-size: 3rem;
+        
+    }
+}
+
+
+@media screen and (max-width:1300px){
+    .service-tab img{
+        width: 20%;
+        margin: auto;
+    }
+    .services-tab-1 img{
+        width: 11%;
+    }
+    .services-tab-3 img, .services-tab-4 img{
+        width: 15%;
+    }
+    .service-tab h2{
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold';
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    .service-tab p{
+        font-family: 'Gotham-Medium';
+        font-size: .9rem;
+    }
+    .contact-tab img{
+        width: 100%;
+    }
+    .contact-tab h2{
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .contact-tab p{
+        font-size: .8rem;
+        
+    }
+    .contact-tab .cta-button{
+        font-size: .9rem;
+        height: 9%;
+        line-height: 3;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .service-tab{
+        width: 50%;
+    }
+    .service-tab img{
+        width: 20%;
+        margin: auto;
+    }
+    .services-tab-1 img{
+        width: 11%;
+    }
+    .services-tab-3 img, .services-tab-4 img{
+        width: 25%;
+    }
+    .service-tab h2{
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold';
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    .service-tab p{
+        font-family: 'Gotham-Medium';
+        font-size: .9rem;
+    }
+    .contact-tab{
+        width: 100%;
+        /* padding: 0 20%; */
+        margin: 5% 5%;
+    }
+    .contact-tab img{
+        width: 100%;
+    }
+    .contact-tab h2{
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+    .contact-tab p{
+        font-size: .9rem;
+        
+    }
+    .contact-tab .cta-button{
+        font-size: .9rem;
+        height: 7%;
+        line-height: 3;
+    }
+    .contact-tabs .service-tab{
+        width: 35%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .contact-tab .cta-button{
+        font-size: .9rem;
+        height: 8%;
+        line-height: 3;
+    }
+}
+@media screen and (max-width:900px) {
+    .contact-tab h2{
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .contact-tab p{
+        font-size: .8rem;
+        
+    }
+    .contact-tab .cta-button{
+        font-size: .8rem;
+        height: 8%;
+        line-height: 3;
+    }
+}
+@media screen and (max-width:800px){
+    .service-tab{
+        width: 100%;
+    }
+    .service-tab img{
+        width: 15%;
+        margin: auto;
+    }
+    .services-tab-1 img{
+        width: 8%;
+    }
+    .services-tab-3 img, .services-tab-4 img{
+        width: 16%;
+    }
+    .service-tab h2{
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold';
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    .service-tab p{
+        font-family: 'Gotham-Medium';
+        font-size: .9rem;
+        padding: 0 15%;
+    }
+    /* .contact-tab{
+        width: 100%;
+        padding: 0 10%;
+        margin: 5% 0;
+    } */
+    .contact-tab img{
+        width: 100%;
+    }
+    .contact-tab h2{
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .contact-tab p{
+        font-size: .8rem;
+        
+    }
+    .contact-tab .cta-button{
+        font-size: .8rem;
+        height: 8%;
+        line-height: 3;
+    }
+    .contact-tabs .service-tab{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contact-tabs .service-tab{
+        width:80%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .service-tab{
+     margin: 20px 0;
+    }
+}

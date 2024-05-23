@@ -1,0 +1,107 @@
+.team-members{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.team-member{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4% 0 5% 0;
+    color: #1B365D;
+}
+.team-member .left{
+    width: 30%;
+}
+.team-member .right{
+    width: 60%;
+}
+.team-member .right h3{
+    font-family: 'Built-Tilting-Bold';
+    font-size: 2.7rem;
+    display: inline-block;
+    padding-right: 20px;
+}
+.team-member .right h4{
+    font-family: 'Built-Tilting-Regular';
+    font-size: 2rem;
+    display: inline-block;
+}
+.team-member .right p{
+    font-family: 'Gotham-Book';
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-bottom: 20px;;
+}
+.team-member .right p:last-child{
+    padding-bottom: 0;
+}
+.team-member .img-container{
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    left: 5%;
+    margin-top: 5%;
+}
+.team-member .gatsby-image-wrapper{
+    display: block;
+}
+.team-member .orange::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15%;
+    width: 40%;
+    height: 100%;
+    background: #C08F56;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: skew(15deg);
+    -ms-transform: skew(15deg);
+    transform: skew(18deg);
+    z-index: 5;
+}
+.team-member .blue::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15%;
+    width: 40%;
+    height: 100%;
+    background: #1B365D;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: skew(15deg);
+    -ms-transform: skew(15deg);
+    transform: skew(18deg);
+    z-index: 5;
+}
+
+@media screen and (max-width: 2500px){
+    .team-member{
+        padding: 3% 0 4% 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .team-member .img-container{
+        width: 70%;
+    }
+    .team-member{
+        flex-direction: column;
+    }
+    .team-member .left{
+        width: 100%;
+        font-size: .9rem;
+    }
+    .team-member .right{
+        align-self: center;
+        width: 80%;
+        padding-top: 20px;
+    }
+    .team-member .right p{
+        font-size: .9rem;
+    }
+}

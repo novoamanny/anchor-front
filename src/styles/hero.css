@@ -1,0 +1,3577 @@
+/*
+  Warning: This component is shared and utilized across the entire project.
+  Configure according to page.
+  About - .about | .about-hero
+  Resources - .resources | .resources-hero
+  Project Management & Quality - .PMQ | .PMQ-hero
+
+
+  Content class is shared beteen all pages.
+
+
+  Need to add to ReadMe file.
+*/
+
+
+.hero {
+  position: relative;
+  min-height: 640px;
+  margin-top: -177px;
+  background-image: url(../images/welder.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* Content class is shared beteen all pages. */
+.hero .content{
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 46%; /* changing this value means you should probably change the width value for .home-section-1 .content to equal 100% */
+  /* height: 50%; */
+  z-index: 1;
+  /* padding: 2% 10% 5% 5%; */
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+
+}
+/*  */
+.hero .content h2{
+  font-family: 'Built-Tilting-Bold';
+  font-size: 4.8rem;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.hero .content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #C08F56;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: skew(15deg);
+  -ms-transform: skew(15deg);
+  transform: skew(18deg);
+  z-index: -1;
+}
+
+
+/* About Page */
+.hero .about{
+  padding: 3% 15% 3% 4%;
+  width: 47%;
+}
+.hero .about h2{
+  font-size: 6rem;
+}
+
+.hero .about p{
+  font-family: 'Gotham-Medium';
+  font-size: 2.5rem;
+  padding-right: 20%;
+  margin-top: 40px;
+}
+
+
+
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+/* Kansas */
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+
+
+/* Careers */
+.careers-hero{
+  height: 50vh;
+}
+.careers-hero .content{
+  width: 40%;
+  height: 20%;
+  /* padding: 1% 18% 0% 8%; */
+}
+.careers-hero .content::after{
+  background: #1B365D;
+}
+.careers-hero .content h2{
+  margin: auto;
+}
+
+
+/* Contact */
+.contact-hero{
+  height: 800px;
+}
+.contact-hero .content{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1% 12% 1% 5%;
+}
+.contact-hero .content h2{
+  font-size: 7rem;
+}
+.contact-hero .content::after{
+  background: #1B365D;
+}
+
+
+
+/* Resources Page */
+.resources-hero .content{
+  width: 50%;
+  padding: 2% 2% 2% 2%;
+}
+.resources-hero .content h2{
+  line-height: 1;
+}
+.resources-hero .content::after{
+  background: #1B365D;
+}
+
+
+
+
+/* Blog Page */
+.resources-Blog-hero .content{
+  width: 45.5%;
+  height: 30%;
+  /* padding: 2% 18% 0% 8%; */
+}
+.resources-Blog-hero .content::after{
+  background: #1B365D;
+}
+.resources-Blog-hero .resources-Blog h2{
+font-size: 5rem;
+padding: 0 0%;
+margin: auto;
+}
+
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 1% 15% 0% 8%;
+}
+.blog-hero .content::after{
+  background: #1B365D;
+}
+.blog-hero .blog h2{
+font-size: 4rem;
+padding: 0 0%;
+}
+
+/* News Page */
+.resources-News-hero .content{
+  width: 45.5%;
+  height: 30%;
+
+}
+.resources-News-hero .content::after{
+  background: #1B365D;
+}
+.resources-News-hero .resources-News h2{
+font-size: 5rem;
+padding: 0 0%;
+margin: auto;
+}
+
+
+/* News Post */
+.news-single-hero{
+  height: 45vh;
+}
+.news-single-hero .content{
+  width: 50.5%;
+  height: 25%;
+  padding: 1% 15% 0% 8%;
+}
+.news-single-hero .content::after{
+  background: #1B365D;
+}
+.news-single-hero .news h2{
+font-size: 4rem;
+padding: 0 0%;
+}
+
+
+.resources-News-hero .content{
+  width: 45.5%;
+  height: 30%;
+  padding: 2% 18% 0% 8%;
+}
+.resources-News-hero .content::after{
+  background: #1B365D;
+}
+.resources-News-hero .resources-News h2{
+font-size: 5rem;
+padding: 0 0%;
+}
+
+
+/* Blog Post */
+.news-single-hero{
+  height: 45vh;
+}
+.news-single-hero .content{
+  width: 60.5%;
+  height: 30%;
+  padding: 1% 15% 0% 8%;
+}
+.news-single-hero .content::after{
+  background: #1B365D;
+}
+.news-single-hero .news h2{
+font-size: 4rem;
+padding: 0 0%;
+}
+
+
+
+
+/* Eguides*/
+.resources-e-guides-hero{
+
+  height: 50vh;
+}
+.resources-e-guides-hero .content h2{
+  font-size: 7rem;
+}
+.resources-e-guides-hero .content{
+  width: 67%;
+
+  padding: 2% 15% 2% 8%;
+}
+.resources-e-guides-hero .content::after{
+  background: #1B365D;
+}
+
+
+
+/* PMQ */
+.PMQ-hero .content h2{
+  font-size: 5.5rem;
+
+}
+.PMQ-hero .content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  height: 25%;
+  padding: 2% 8% 2% 5%;
+}
+.PMQ-hero .content::after{
+  background: #1B365D;
+}
+
+
+
+
+/* Services */
+.services-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 2% 5% 2% 5%;
+}
+.services-hero .services h2{
+  font-size: 5rem;
+  line-height: 1;
+}
+.services-hero .content::after{
+  background: #1B365D;
+}
+
+/* Services Engineering */
+.services-Engineering-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+}
+.services-Engineering-hero .content::after{
+  background: #1B365D;
+}
+
+/* Services Laser Cutting */
+.services-laser-cutting-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+.services-laser-cutting-hero .content h2{
+
+}
+.services-laser-cutting-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Services Plasma Cutting */
+.services-plasma-cutting-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+.services-plasma-cutting-hero .content::after{
+  background: #1B365D;
+}
+
+/* Services Forming */
+.services-Forming-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+.services-Forming-hero .content::after{
+  background: #1B365D;
+}
+
+/* Services Machining */
+.services-Machining-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+.services-Machining-hero .content::after{
+  background: #1B365D;
+}
+/* Services Welding */
+.services-Welding-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+.services-Welding-hero .content::after{
+  background: #1B365D;
+}
+/* Services Coating */
+.services-Coating-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+.services-Coating-hero .content::after{
+  background: #1B365D;
+}
+/* Services Assembly */
+.services-Assembly-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+.services-Assembly-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Light */
+.light-hero{
+  height: 1100px;
+}
+.light-hero .content{
+  width: 50%;
+
+}
+/* .light-hero .light{
+  height: 150px;
+
+}
+.light-hero .light h2{
+  margin: auto;
+} */
+
+
+
+/* Medium */
+.medium-hero{
+  height: 1100px;
+}
+.medium-hero .content::after{
+  background-color: #1B365D;
+}
+.medium-hero .content{
+  width: 50%;
+
+}
+.medium-hero .medium{
+  /* padding-top: 1%;
+  padding-right: 3%; */
+}
+
+
+
+
+/* Heavy*/
+.heavy-hero{
+  height: 1100px;
+}
+.heavy-hero .content{
+  width: 50%;
+
+}
+.heavy-hero .heavy{
+  /* padding-top: 1%;
+  padding-right: 3%; */
+}
+.heavy-hero .heavy:after{
+  background-color: #C08F56;
+}
+
+
+/* Hero Fix */
+.hero-fix{
+  height: 150px;
+  /* padding: 0; */
+}
+.hero-fix.hero-fix h2{
+  margin: auto;
+}
+
+
+/* Schedule A Tour */
+.schedule-tour-hero .schedule-tour{
+  padding: 2% 0;
+  
+}
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 6rem;
+}
+.schedule-tour-hero .schedule-tour::after{
+  background-color: #1B365D;
+
+}
+
+
+
+/* Need to Polish Queries */
+
+@media screen and (max-width: 2700px) {
+  .hero .content h2{
+    font-size: 4rem;
+  }
+  /* Contact */
+  .contact-hero .content{
+    padding: 1% 12% 1% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 7rem;
+  }
+
+  /* Schedule Tour */
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 6rem;
+  padding-right: 3%;
+}
+  /* About */
+  .hero .about{
+
+    width: 46%;
+  }
+  .about-hero .content{
+    padding-right: 10%;
+  }
+  .about-hero .content p{
+    font-size: 2.5rem;
+  }
+  .about-hero .content h2{
+    font-size: 6rem;
+  }
+
+  /* Careers */
+  .careers-hero{
+    height: 50vh;
+  }
+  .careers-hero .content{
+    width: 40%;
+    height: 20%;
+
+  }
+
+
+  /* Resources */
+.resources-hero .content h2{
+  font-size: 5rem;
+}
+.resources-hero .content{
+  padding: 2% 5% 2% 5%;
+}
+
+  /* Blog Page */
+.resources-Blog-hero .content{
+  width: 45.5%;
+  height: 30%;
+  padding: 2% 18% 0% 8%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 4.7rem;
+padding: 0 0%;
+}
+
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 2% 15% 0% 8%;
+}
+
+.blog-hero .blog h2{
+font-size: 4rem;
+padding: 0 0%;
+}
+
+
+
+
+  /* News Page */
+  .resources-News-hero .content{
+    width: 45.5%;
+    height: 30%;
+    padding: 2% 18% 0% 8%;
+  }
+  
+  .resources-News-hero .resources-News h2{
+  font-size: 4.7rem;
+  padding: 0 0%;
+  }
+  
+  
+  /* News Post */
+  .news-single-hero{
+    height: 45vh;
+  }
+  .news-single-hero .content{
+    width: 60.5%;
+    height: 30%;
+    padding: 2% 15% 0% 8%;
+  }
+  
+  .news-single-hero .news h2{
+  font-size: 4rem;
+  padding: 0 0%;
+  }
+
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 23% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 23% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 23% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 23% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+/* Eguide */
+.resources-e-guides-hero .content h2{
+  font-size: 6rem;
+}
+.resources-e-guides-hero .content{
+  width: 68%;
+}
+
+  /* PMQ */
+  .PMQ-hero .PMQ{
+
+  }
+  .PMQ-hero .content h2{
+    font-size: 5.5rem;
+  }
+
+    /* Services Engineering */
+  .services-Engineering-hero .content::after{
+    background: #1B365D;
+  }
+
+  /* Services Laser Cutting */
+.services-laser-cutting-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+
+/* Services Welding */
+.services-Welding-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+
+
+/* Services Coating */
+.services-Welding-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+  /* Services Assembly */
+.services-Assembly-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+}
+@media screen and (max-width: 2600px) {
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 1% 12% 1% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 6rem;
+  }
+
+
+
+   /* About Page */
+  .hero .about h2{
+
+    font-size: 5.5rem;
+
+  }
+.hero .about{
+
+  width: 48%;
+}
+
+.hero .about p{
+
+  font-size: 2.3rem;
+
+}
+
+/* Resources */
+.resources-hero .content{
+  padding: 2% 4% 2% 0;
+}
+
+
+  /* Blog Page */
+.resources-Blog-hero .content{
+  width: 45.5%;
+  height: 30%;
+  padding: 2% 15% 0% 10%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 4.5rem;
+padding: 0 0%;
+}
+  /* News Page */
+  .resources-News-hero .content{
+    width: 45.5%;
+    height: 30%;
+    padding: 2% 15% 0% 10%;
+  }
+  
+  .resources-News-hero .resources-News h2{
+  font-size: 4.5rem;
+  padding: 0 0%;
+  }
+
+.PMQ-hero .content{
+  padding-right: 10%;
+}
+.PMQ-hero .content h2{
+  font-size: 5rem;
+
+}
+
+/* Schedule Tour */
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 5.5rem;
+}
+
+
+}
+
+@media screen and (max-width: 2500px){
+
+/* About */
+.about-hero .content h2{
+  font-size: 5rem;
+}
+
+
+/* Contact */
+.contact-hero{
+  height: 700px;
+}
+
+/* resources */
+.resources-hero .content{
+  padding: 2% 5% 2% 0;
+}
+.resources-hero .content h2{
+  font-size: 4.7rem;
+}
+
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 2% 15% 0% 8%;
+}
+
+.blog-hero .blog h2{
+font-size: 3.5rem;
+padding: 0 0%;
+}
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 20% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 20% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 20% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 20% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+/* Light */
+.light-hero{
+  height: 1000px;
+}
+.light-hero .light{
+  padding-top: 1.5%;
+  padding-right: 5%;
+  height: 20%;
+}
+/* medium */
+.medium-hero{
+  height: 1000px;
+}
+.medium-hero .medium{
+  padding-top: 1.5%;
+  padding-right: 5%;
+  height: 20%;
+}
+
+/* Heavy */
+.heavy-hero{
+  height: 1000px;
+}
+.heavy-hero .heavy{
+  padding-top: 1.5%;
+  padding-right: 5%;
+  height: 20%;
+}
+}
+
+@media screen and (max-width:2400px){
+
+    /* About Page */
+    /* .hero .about h2{
+
+      font-size: 4.2rem;
+      margin-bottom: 20px;
+    } */
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 1% 12% 1% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 6rem;
+  }
+
+
+  /* About */
+  .hero .about{
+    padding-top: 3%;
+    width: 48%;
+  }
+
+  .hero .about p{
+    font-family: 'Gotham-Medium';
+    font-size: 2rem;
+    margin-top: 40px;
+    padding-right: 20%;
+  }
+
+  /* E guides */
+.resources-e-guides-hero .content h2{
+  font-size: 5rem;
+}
+
+  /* PMQ */
+  .PMQ-hero .content{
+    padding-right: 8%;
+  }
+  .PMQ-hero .content h2{
+    font-size: 4.7rem;
+  }
+}
+
+@media screen and (max-width: 2300px){
+
+/* About */
+.about-hero .content{
+  padding: 3% 0% 3% 5%;
+}
+.about-hero .content h2{
+  font-size: 4.7rem;
+  padding-right: 30%;
+}
+.about-hero .content p{
+  padding-right: 30%;
+}
+
+
+  /* Careers */
+  .careers-hero{
+    height: 50vh;
+  }
+  .careers-hero .content{
+    width: 40%;
+    height: 20%;
+
+  }
+
+  /* Resources */
+
+.resources-hero .content{
+  padding: 2% 5% 2% 0;
+}
+.resources-hero .content h2{
+  font-size: 4.4rem;
+}
+
+
+/* Eguides*/
+.resources-e-guides-hero .content{
+  width: 68%;
+  
+  padding: 2% 15% 2% 8%;
+}
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+    /* Blog Page */
+.resources-Blog-hero .content{
+  width: 45.5%;
+  height: 30%;
+  padding: 2% 10% 0% 10%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 4rem;
+padding: 0 0%;
+}
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 2% 15% 0% 8%;
+}
+
+.blog-hero .blog h2{
+font-size: 3.5rem;
+padding: 0 0%;
+}
+
+/* News Page */
+.resources-News-hero .content{
+  width: 45.5%;
+  height: 30%;
+  padding: 2% 10% 0% 10%;
+}
+
+.resources-News-hero .resources-News h2{
+font-size: 4rem;
+padding: 0 0%;
+}
+
+/* News Post */
+.news-single-hero{
+  height: 45vh;
+}
+.news-single-hero .content{
+  width: 60.5%;
+  height: 25%;
+  padding: 2% 15% 0% 8%;
+}
+
+.news-single-hero .news h2{
+font-size: 3.5rem;
+padding: 0 0%;
+    }
+
+
+
+/* Services */
+.services-hero .content{
+  width: 50%;
+}
+
+  /* Light */
+  .light-hero{
+    height: 900px;
+  }
+.light-hero .content{
+  width: 50%;
+
+}
+.light-hero .light h2{
+  font-size: 4rem;
+}
+  /* Medium */
+  .medium-hero{
+    height: 900px;
+  }
+.medium-hero .content{
+  width: 50%;
+
+}
+.medium-hero .medium h2{
+  font-size: 4rem;
+}
+/* Heavy */
+.heavy-hero{
+  height: 900px;
+}
+.heavy-hero .content{
+width: 50%;
+
+}
+.heavy-hero .heavy h2{
+font-size: 4rem;
+}
+
+}
+@media screen and (max-width: 2200px) {
+
+/* Schedule Tour */
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 5rem;
+}
+
+
+  /* About Page */
+  .about-hero .content{
+    padding: 3% 0 3% 6%;
+  }
+  .about-hero .content h2{
+    font-size: 4.2rem;
+    line-height: 4.7rem;
+    margin-bottom: 0;
+  }
+  .about-hero .content p{
+    font-size: 1.7rem;
+    padding-right: 40%;
+  }
+
+.hero .about p{
+  font-family: 'Gotham-Medium';
+  font-size: 2rem;
+  margin-top: 40px;
+  padding-right: 20%;
+}
+
+.PMQ-hero .content h2{
+ font-size: 4.5rem;
+}
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 1% 12% 1% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 5.5rem;
+  }
+
+
+}
+@media screen and (max-width: 2100px){
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 1% 12% 1% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 5.5rem;
+  }
+
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 2% 5% 2% 0;
+  }
+  .resources-hero .content h2{
+    font-size: 4.2rem;
+  }
+
+  /* Careers */
+  .careers-hero{
+    height: 50vh;
+  }
+  .careers-hero .content{
+    width: 40%;
+    height: 20%;
+    padding: 1% 15% 0% 12%;
+  }
+
+/* Eguides*/
+.resources-e-guides-hero .content{
+  width: 68%;
+  
+  padding: 2% 15% 2% 7%;
+}
+.resources-e-guides-hero .content h2{
+  font-size: 4.7rem;
+}
+
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+  /* Blog Page */
+  .resources-Blog-hero .content{
+    width: 45.5%;
+    height: 30%;
+    /* padding: 2% 10% 0% 10%; */
+  }
+
+  .resources-Blog-hero .resources-Blog h2{
+  /* font-size: 3.5rem; */
+  padding: 0 0%;
+  }
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 2% 15% 0% 8%;
+}
+
+.blog-hero .blog h2{
+font-size: 3rem;
+padding: 0 0%;
+}
+
+
+  /* News Page */
+  .resources-News-hero .content{
+    width: 45.5%;
+    height: 30%;
+    /* padding: 2% 10% 0% 10%; */
+  }
+
+  .resources-News-hero .resources-News h2{
+  /* font-size: 3.5rem; */
+  padding: 0 0%;
+  }
+
+/* News Post */
+.news-single-hero{
+  height: 45vh;
+}
+.news-single-hero .content{
+  width: 60.5%;
+  height: 25%;
+  padding: 2% 15% 0% 8%;
+}
+
+.news-single-hero .news h2{
+font-size: 3rem;
+padding: 0 0%;
+}
+
+
+  /* PMQ */
+  .PMQ-hero .content h2{
+    font-size: 4.2rem;
+
+  }
+
+/* Services */
+.services-hero .content{
+  width: 50%;
+}
+
+  /* Services Engineering */
+.services-Engineering-hero .content::after{
+  background: #1B365D;
+}
+
+/* Services Laser Cutting */
+.services-laser-cutting-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+/* Services Plasma Cutting */
+.services-plasma-cutting-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+/* Services Forming */
+.services-Forming-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+/* Services Machining */
+.services-Machining-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+/* Services Welding */
+.services-Welding-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+
+/* Services Coating */
+.services-Coating-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+/* Services Assembly */
+.services-Assembly-hero .content{
+  width: 50%;
+  height: auto;
+  padding: 1% 3% 0 5%;
+
+}
+
+}
+
+@media screen and (max-width: 2000px) {
+.blog-single-hero .content h2{
+  font-size: 5rem;
+  padding: 50px 150px;
+}
+
+
+/* Schedule Tour */
+.schedule-tour-hero .schedule-tour{
+  padding: 2% 0;
+}
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 4.5rem;
+}
+
+
+  /* About Page */
+  .about-hero .content {
+    padding: 3% 0 3% 7%;
+  }
+  .about-hero .content p{
+    font-size: 1.6rem;
+  }
+  .PMQ-hero .content h2{
+    font-size: 4rem;
+
+  }
+ .about-hero .content h2{
+   font-size: 3.7rem;
+   line-height: 4.5rem;
+ }
+}
+
+@media screen and (max-width: 1900px){
+
+
+  /* Resources */
+
+.resources-hero .content{
+  padding: 2% 5% 2% 0;
+}
+.resources-hero .content h2{
+  font-size: 3.8rem;
+}
+
+/* Contact */
+.contact-hero .contact h2{
+  font-size: 3.5rem;
+}
+.contact-hero .contact{
+  height: 20%;
+}
+
+
+  .light-hero .light{
+    padding-top: 2%;
+  }
+  .medium-hero .medium{
+    padding-top: 2%;
+  }
+  .heavy-hero .heavy{
+    padding-top: 2%;
+  }
+}
+
+
+@media screen and (max-width: 1900px){
+
+
+    /* Careers */
+    .careers-hero{
+      height: 50vh;
+    }
+    .careers-hero .content{
+      width: 40%;
+      height: 20%;
+      padding: 1% 15% 0% 12%;
+    }
+
+  /* Eguides*/
+.resources-e-guides-hero .content{
+  width: 68%;
+
+  padding: 2% 15% 2% 8%;
+}
+
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+  /* Blog Page */
+  .resources-Blog-hero .content{
+    width: 45.5%;
+    height: 30%;
+    
+  }
+
+  .resources-Blog-hero .resources-Blog h2{
+  
+  padding: 0 0%;
+  }
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 2% 12% 0% 6%;
+}
+
+.blog-hero .blog h2{
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+  /* News Page */
+  .resources-News-hero .content{
+    width: 45.5%;
+    height: 30%;
+    
+  }
+
+  .resources-News-hero .resources-News h2{
+  /* font-size: 3.4rem; */
+  padding: 0 0%;
+  }
+
+/* News Post */
+.news-single-hero{
+  height: 45vh;
+}
+.news-single-hero .content{
+  width: 60.5%;
+  height: 25%;
+  padding: 2% 12% 0% 6%;
+}
+
+.news-single-hero .news h2{
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+  /* PMQ */
+  .PMQ-hero .content h2{
+    font-size: 3.8rem;
+
+  }
+/* Services */
+.services-hero .content{
+  width: 50%;
+}
+
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 2% 12% 2% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 5rem;
+  }
+
+
+}
+
+@media screen and (min-width:1800px) {
+  .hero{
+    height: 80vh;
+  }
+
+  .blog-single-hero .content h2{
+    font-size: 4.7rem;
+    padding: 50px 150px;
+  }
+  .about-hero .content{
+    padding: 2% 0 2% 5%;
+  }
+  .about-hero .content h2{
+    font-size: 4rem;
+  }
+  .about-hero .content p{
+    margin-top: 30px;
+  }
+
+
+
+    /* PMQ */
+    .PMQ-hero .content h2{
+      font-size: 3.6rem;
+
+    }
+
+    /* E guide */
+.resources-e-guides-hero .content h2{
+  font-size: 4rem;
+}
+    /* Schedule Tour */
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 4rem;
+  padding: 1% 0;
+}
+
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 2% 12% 2% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 4.7rem;
+  }
+}
+
+
+@media screen and (max-width: 1700px){
+
+
+  .blog-single-hero .content {
+    width: 70%;
+    padding-right: 50px;
+}
+.hero.blog-single-hero .content h2 {
+  padding: 50px 0px;
+  margin-bottom: 0;
+  font-size: 4.5rem;
+
+}
+  /* About */
+  .about-hero .content{
+    padding: 2% 0% 2% 4%;
+  }
+
+
+  /* Resources */
+
+.resources-hero .content{
+  padding: 2% 5% 2% 0;
+}
+.resources-hero .content h2{
+  font-size: 3.5rem;
+}
+
+
+/* Contact */
+.contact-hero .contact h2{
+  font-size: 3.5rem;
+}
+.contact-hero .contact{
+  height: 20%;
+}
+
+
+  /* Careers */
+  .careers-hero{
+    height: 50vh;
+  }
+  .careers-hero .content{
+    width: 40%;
+    height: 20%;
+    padding: 1% 15% 0% 12%;
+  }
+
+  /* Eguides*/
+.resources-e-guides-hero .content{
+  width: 68%;
+
+  padding: 2% 15% 2% 5%;
+}
+.resources-e-guides-hero .content h2{
+  font-size: 4rem;
+}
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 19% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 19% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+  /* Blog Page */
+  .resources-Blog-hero .content{
+    width: 45.5%;
+    height: 30%;
+    padding: 2% 10% 0% 10%;
+  }
+
+  .resources-Blog-hero .resources-Blog h2{
+  font-size: 3rem;
+  padding: 0 0%;
+  }
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 2% 12% 0% 6%;
+}
+
+.blog-hero .blog h2{
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+  /* News Page */
+  .resources-News-hero .content{
+    width: 45.5%;
+    height: 30%;
+    padding: 2% 10% 0% 10%;
+  }
+
+  .resources-News-hero .resources-News h2{
+  font-size: 3rem;
+  padding: 0 0%;
+  }
+
+/* News Post */
+.news-single-hero{
+  height: 45vh;
+}
+.news-single-hero .content{
+  width: 60.5%;
+  height: 25%;
+  padding: 2% 12% 0% 6%;
+}
+
+.news-single-hero .news h2{
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+  /* PMQ */
+  .PMQ-hero .content{
+
+    height: 30%;
+  }
+  .PMQ-hero .content h2{
+    font-size: 3.5rem;
+  }
+  /* Services */
+.services-hero .content{
+  width: 50%;
+}
+/* Services Plasma */
+.services-plasma-cutting-hero .services-plasma-cutting{
+  width: 60%;
+}
+.services-plasma-cutting-hero .services-plasma-cutting h2{
+font-size: 3.5rem;
+}
+ /* Light */
+ .light-hero .light{
+   padding-top: 3%;
+ }
+.light-hero .content h2{
+  font-size: 3.7rem;
+  /* height: 10%; */
+}
+  /* Medium */
+  .medium-hero .medium{
+    padding-top: 3%;
+  }
+ .medium-hero .content h2{
+   font-size: 3.7rem;
+   /* height: 10%; */
+ }
+/* Heavy */
+  .heavy-hero .heavy{
+    padding-top: 3%;
+  }
+ .heavy-hero .content h2{
+   font-size: 3.7rem;
+   /* height: 10%; */
+ }
+
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 2% 12% 2% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 4.5rem;
+  }
+
+
+  .image-text.location-image-contain{
+    background-size: contain;
+  }
+
+}
+
+@media(max-width: 1600px){
+  .hero.blog-single-hero .content h2 {
+
+    font-size: 4rem;
+  
+  }
+
+
+  /* Schedule Tour */
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 4rem;
+  padding: 1% 0;
+}
+
+  /* About Page */
+  .about-hero .content h2{
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+  .about-hero .content p{
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+
+    /* Eguides*/
+.resources-e-guides-hero .content{
+  width: 68%;
+
+  padding: 2% 15% 1% 5%;
+}
+.resources-e-guides-hero .content h2{
+  font-size: 3.7rem;
+}
+
+      /* Blog Page */
+.resources-Blog-hero .content{
+  width: 45%;
+  height: 30%;
+  padding: 2% 10% 0% 10%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 2.9rem;
+padding: 0 0%;
+}
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 45.5%;
+  height: 50%;
+  padding: 2% 10% 0% 6%;
+}
+
+.blog-hero .blog h2{
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+  /* News Page */
+  .resources-News-hero .content{
+    width: 45%;
+    height: 30%;
+    padding: 2% 10% 0% 10%;
+  }
+  
+  .resources-News-hero .resources-News h2{
+  font-size: 2.9rem;
+  padding: 0 0%;
+  }
+  
+  /* News Post */
+  .news-single-hero{
+    height: 45vh;
+  }
+  .news-single-hero .content{
+    width: 60.5%;
+    height: 25%;
+    padding: 2% 10% 0% 6%;
+  }
+  
+  .news-single-hero .news h2{
+  font-size: 2.5rem;
+  padding: 0 0%;
+  }
+
+
+.services-Welding-hero .content h2{
+  font-size: 3.5rem;
+}
+.services-Forming-hero .content h2{
+  font-size: 3.5rem;
+}
+.services-Coating-hero .content h2{
+  font-size: 3rem;
+}
+.PMQ-hero .content{
+  padding: 3% 8% 3% 5%;
+}
+.PMQ-hero .content h2{
+  font-size: 3.3rem;
+}
+
+  /* Contact */
+  .contact-hero .content{
+    padding: 2% 12% 1% 5%;
+  }
+  .contact-hero .content h2{
+    font-size: 4rem;
+  }
+
+}
+
+@media screen and (max-width:1500px) {
+.schedule-tour-hero .schedule-tour{
+  padding: 2% 0;
+}
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 3.5rem;
+}
+
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 2% 5% 2% 0;
+  }
+  .resources-hero .content h2{
+    font-size: 3.2rem;
+  }
+
+
+  /* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 50%;
+  height: 50%;
+  padding: 2% 8% 0% 4%;
+}
+
+.blog-hero .blog h2{
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+.services-Engineering-hero .services-Engineering{
+  padding-left: 2%;
+}
+.services-Engineering-hero .services-Engineering h2{
+  font-size: 3rem;
+}
+.PMQ-hero .content{
+  padding: 3% 5% 3% 4%;
+}
+}
+
+@media screen and (max-width: 1400px){
+
+  .hero.blog-single-hero .content h2 {
+
+    font-size: 3.5rem;
+  
+  }
+
+ /* About */
+.about-hero .content h2{
+  font-size: 3rem;
+  padding-right: 30%;
+  line-height: 3.5rem;
+}
+.about-hero .content p{
+  padding-right: 30%;
+  font-size: 1.3rem;
+}
+
+
+
+
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 3% 5% 2% 0;
+  }
+  .resources-hero .content h2{
+    font-size: 3rem;
+  }
+
+
+
+
+  /* Careers */
+  .careers-hero{
+    height: 50vh;
+  }
+  .careers-hero .content{
+    width: 40%;
+    height: 20%;
+    padding: 1% 15% 0% 12%;
+  }
+
+  /* Eguides*/
+  .resources-e-guides-hero .content{
+    width: 68%;
+  
+    padding: 2% 15% 1% 5%;
+  }
+  .resources-e-guides-hero .content h2{
+    font-size: 3.7rem;
+  }
+
+/* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 50%;
+  padding: 1% 19% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 50%;
+  padding: 1% 19% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 50%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+      /* Blog Page */
+.resources-Blog-hero .content{
+  width: 45%;
+  height: 30%;
+  padding: 2% 10% 0% 10%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 2.9rem;
+padding: 0 0%;
+}
+      /* News Page */
+      .resources-News-hero .content{
+        width: 45%;
+        height: 30%;
+        padding: 2% 10% 0% 10%;
+      }
+      
+      .resources-News-hero .resources-News h2{
+      font-size: 2.9rem;
+      padding: 0 0%;
+      }
+
+  /* PMQ */
+  .PMQ-hero .content h2{
+    font-size: 3.2rem;
+
+  }
+  .PMQ-hero .content{
+    padding: 3% 5% 3% 3%;
+  }
+    /* Services */
+.services-hero .content{
+  width: 50%;
+}
+.services-Welding-hero .content h2{
+  font-size: 3rem;
+}
+.light-hero .content{
+  padding-top: 3%;
+  padding-right: 8%;
+  width: 60%;
+}
+.light-hero .content h2{
+  font-size: 3.4rem;
+}
+  /* Medium */
+  .medium-hero .content{
+    padding-top: 3%;
+    padding-right: 8%;
+    width: 60%;
+  }
+  .medium-hero .content h2{
+    font-size: 3.4rem;
+  }
+/* Heavy */
+.heavy-hero .content{
+  padding-top: 3%;
+  padding-right: 8%;
+  width: 60%;
+}
+.heavy-hero .content h2{
+  font-size: 3.4rem;
+}
+}
+
+@media (max-width:1300px) {
+
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 3% 5% 2% 0;
+  }
+  .resources-hero .content h2{
+    font-size: 2.7rem;
+  }
+
+
+  /* light */
+  .light-hero .light{
+    padding-top: 4%;
+  }
+  /* medium */
+  .medium-hero .medium{
+    padding-top: 4%;
+  }
+    /* heavy */
+    .heavy-hero .heavy{
+      padding-top: 4%;
+    }
+
+    .PMQ-hero .content{
+
+        padding: 4% 5% 4% 2%;
+      }
+    .PMQ-hero .content h2{
+      font-size: 3rem;
+    }
+
+
+/* Schedule Tour */
+.schedule-tour-hero .schedule-tour {
+  padding-right: 3%;
+}
+  }
+
+@media screen and (max-width:1200px){
+
+  .hero.blog-single-hero .content h2 {
+
+    font-size: 3.2rem;
+  
+  }
+
+    /* Contact */
+    .contact-hero .content{
+      padding: 2% 12% 1% 5%;
+      height: 15%;
+    }
+    .contact-hero .content h2{
+      font-size: 3.5rem;
+    }
+
+/* Schedule Tour */
+.schedule-tour-hero .schedule-tour{
+  padding: 2%;
+  padding-right: 4%;
+}
+
+
+ /* About Page */
+  .about-hero .content h2{
+    font-size: 2.8rem;
+    padding-right: 20%;
+  }
+  .about-hero .content p{
+    font-size: 1.2rem;
+  }
+
+
+  /* Resources */
+
+.resources-hero .content{
+  padding: 3% 12% 2% 7%;
+}
+.resources-hero .content h2{
+  font-size: 2.7rem;
+}
+/* Services */
+
+  /* Eguides*/
+  .resources-e-guides-hero .content{
+    width: 50%;
+  
+    padding: 2% 10% 1% 5%;
+  }
+  .resources-e-guides-hero .content h2{
+    font-size: 3.7rem;
+  }
+
+  /* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 60%;
+  padding: 1% 19% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 60%;
+  padding: 1% 19% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 60%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 60%;
+  padding: 1% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+  /* Blog Page */
+  .resources-Blog-hero .content{
+    width:70%;
+    height: 20%;
+    padding: 0% 10% 0% 10%;
+  }
+
+  /* Blog Post */
+  .blog-hero{
+    height: 45vh;
+  }
+  .blog-hero .content{
+    width: 60%;
+    height: 50%;
+    padding: 2% 8% 0% 4%;
+  }
+
+  .blog-hero .blog h2{
+  font-size: 2.5rem;
+  padding: 0 0%;
+  }
+
+
+
+  .resources-News-hero .resources-News h2{
+  font-size: 2.7rem;
+  padding: 0 0%;
+  }
+
+  /* News Post */
+  .news-single-hero{
+    height: 45vh;
+  }
+  .news-single-hero .content{
+    width: 60%;
+    height: 25%;
+    padding: 2% 8% 0% 4%;
+  }
+
+  .news-single-hero .news h2{
+  font-size: 2.5rem;
+  padding: 0 0%;
+  }
+
+
+
+  .resources-News-hero .resources-News h2{
+  font-size: 2.7rem;
+  padding: 0 0%;
+  }
+
+
+  /* PMQ */
+.PMQ-hero .content h2{
+  font-size: 2.8rem;
+}
+.PMQ-hero .content{
+  padding: 4% 4% 4% 2%;
+}
+
+
+.light-hero .content{
+  width: 50%;
+  padding: 3% 10%;
+}
+.medium-hero .content{
+  width: 50%;
+  padding: 3% 10%;
+}
+.heavy-hero .content{
+  width: 50%;
+  padding: 3% 10%;
+}
+
+}
+@media screen and (max-width:1100px){
+
+/* Schedule Tour */
+.schedule-tour-hero .schedule-tour{
+  padding: 2% 0;
+  padding-right: 5%;
+}
+
+   /* About Page */
+    .about-hero .content{
+      padding: 2% 0 2% 3%;
+    }
+
+  /* Blog Page */
+  .resources-Blog-hero .content{
+    width:70%;
+    height: 20%;
+    /* padding: 3% 5% 0% 7%; */
+  }
+
+  .resources-Blog-hero .resources-Blog h2{
+  font-size: 2.7rem;
+  padding: 0 0%;
+  }
+
+    /* News Page */
+    .resources-News-hero .content{
+      width:70%;
+      height: 20%;
+      padding: 3% 5% 0% 7%;
+    }
+  
+    .resources-News-hero .resources-News h2{
+    font-size: 2.7rem;
+    padding: 0 0%;
+    }
+
+.PMQ-hero .content h2{
+  font-size: 3.5rem;
+  line-height: 4rem;
+
+}
+  .PMQ-hero .content{
+    width: 100%;
+    padding: 3% 20%;
+  }
+  .PMQ-hero .content::after{
+    -webkit-transform-origin:0%;
+    -ms-transform-origin:0%;
+    transform-origin:0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+  }
+}
+@media screen and (max-width:1000px){
+
+  .hero .content h2{
+    font-size: 2rem;
+    
+    padding: 10px 0;
+  }
+
+  .hero .content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    -webkit-transform-origin:0%;
+    -ms-transform-origin:0%;
+    transform-origin:0%;
+    -webkit-transform: skew(0deg);
+    -ms-transform: skew(0deg);
+    transform: skew(0deg);
+    z-index: -1;
+  }
+  .hero.blog-single-hero .content {
+
+    width: 100%;
+    padding: 0px 0;
+  
+  }
+  /* Schedule Tour */
+.schedule-tour-hero .schedule-tour{
+  width: 100%;
+  
+}
+.schedule-tour-hero .schedule-tour h2{
+  font-size: 3.5rem;
+}
+
+
+   /* About Page */
+   .about-hero{
+
+   }
+   .about-hero .content::after{
+    background-color: rgba(192, 143, 86, 0.8);
+   }
+   .hero .about h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0px;
+  }
+    .hero .about{
+    padding: 1% 20%;
+
+    width: 100%;
+    }
+
+    .hero .about p{
+
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 0px;
+    padding: 0;
+    }
+
+
+  /* Resources */
+
+.resources-hero .content{
+  padding: 3% 0% 3% 0;
+  width: 100%;
+}
+.resources-hero .content h2{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.resources-e-guides-hero .content{
+  width: 100%;
+  padding: 2% 0;
+  
+}
+.resources-e-guides-hero .content h2{
+  font-size: 3rem;
+  text-align: center;
+}
+
+    /* Services Engineering */
+.services-Engineering-hero .content{
+  width: 100%;
+}
+/* Services Laser Cutting */
+.services-laser-cutting-hero .content{
+  width: 100%;
+}
+/* Services Plasma Cutting */
+.services-plasma-cutting-hero .content{
+  width: 100%;
+}
+/* Services Forming */
+.services-Forming-hero .content{
+  width: 100%;
+}
+/* Services Machining */
+.services-Machining-hero .content{
+  width: 100%;
+}
+/* Services Welding */
+.services-Welding-hero .content{
+  width: 100%;
+}
+/* Services Coating */
+.services-Coating-hero .content{
+  width: 100%;
+}
+/* Services Assembly */
+.services-Assembly-hero .content{
+  width: 100%;
+
+
+
+}
+.services-Assembly-hero .content h2{
+  font-size: 4rem;
+
+
+}
+
+/* PMQ */
+.PMQ-hero .content{
+  padding: 2% 18%;
+}
+.PMQ-hero .content h2{
+  font-size: 3.5rem;
+  line-height: 3.7rem;
+
+}
+
+
+
+    /* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 60%;
+  padding: 2% 19% 0% 8%;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 60%;
+  padding: 2% 19% 0% 8%;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 60%;
+  padding: 2% 18% 0% 8%;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 60%;
+  padding: 2% 18% 0% 8%;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+
+  /* Blog Page */
+  .resources-Blog-hero .content{
+    width:100%;
+    height: 20%;
+
+  }
+
+  .resources-Blog-hero .resources-Blog h2{
+  font-size: 2.5rem;
+  padding: 0 0%;
+  }
+
+  /* Blog Post */
+  .blog-hero{
+    height: 45vh;
+  }
+  .blog-hero .content{
+    width: 70%;
+    height: 50%;
+    padding: 2% 8% 0% 4%;
+  }
+
+  .blog-hero .blog h2{
+  font-size: 2.5rem;
+  padding: 0 0%;
+  margin: auto;
+  }
+
+
+   /* News Page */
+   .resources-News-hero .content{
+    width:100%;
+    height: 20%;
+
+  }
+
+  .resources-News-hero .resources-News h2{
+  font-size: 2.5rem;
+  padding: 0 0%;
+  }
+
+  /* News Post */
+  .news-single-hero{
+    height: 45vh;
+  }
+  .news-single-hero .content{
+    width: 100%;
+    height: 25%;
+    padding: 2% 8% 0% 4%;
+  }
+
+  .news-single-hero .news-single h2{
+  font-size: 2.5rem;
+  padding: 0 0%;
+  margin: auto;
+  }
+
+
+
+      /* Services */
+.services-hero .content{
+  width: 60%;
+}
+
+/* Light */
+.light-hero .content{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  height: 15%;
+}
+.light-hero .content h2{
+  font-size: 3rem;
+}
+/* medium */
+.medium-hero .content{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  height: 15%;
+}
+.medium-hero .content h2{
+  font-size: 3rem;
+}
+.heavy-hero .content{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  height: 15%;
+}
+.heavy-hero .content h2{
+  font-size: 3rem;
+}
+.contact-hero .contact h2{
+  font-size: 4rem;
+  text-align: center;
+}
+.contact-hero .contact{
+  width: 100%;
+  padding: 1% 0% 0% 0%;
+}
+}
+
+
+@media screen and (max-width: 900px){
+
+
+
+   /* About Page */
+   .about-hero{
+    height: 60vh;
+  }
+  .hero .about h2{
+
+   font-size: 2.8rem;
+   padding: 0;
+   margin-bottom: 0px;
+ }
+   .hero .about{
+   padding: 2% 18%;
+
+   width: 100%;
+   }
+
+   .hero .about p{
+
+
+   font-size: 1.3rem;
+   margin-top: 0px;
+   padding: 0;
+   }
+
+
+   
+
+  /* Contact */
+.contact-hero{
+  height: 400px;
+}
+.contact-hero .contact{
+  padding: 2% 0;
+  height: 20%;
+
+}
+.contact-hero .contact h2{
+
+  margin: 0;
+  text-align: center;
+}
+
+   /* Careers */
+
+   .careers-hero .content{
+    text-align: center;
+    height: 20%;
+  }
+  .careers-hero .content h2{
+   font-size: 2.5rem;
+  }
+  .careers-hero .careers{
+   padding: 2% 0% 0% 0%;
+ }
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 3% 0% 3% 0;
+    width: 100%;
+  }
+  .resources-hero .content h2{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+/* Eguides*/
+.resources-e-guides-hero .content{
+
+  padding: 2% 0% 2% 0%;
+}
+
+    /* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 50vh;
+}
+.locations-fort-worth-hero .content{
+  width: 100%;
+  padding: 2% 0% 0% 0%;
+  text-align: center;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 50vh;
+}
+.locations-kansas-hero .content{
+  width: 100%;
+  padding: 2% 0% 0% 0%;
+  text-align: center;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 50vh;
+}
+.locations-tennessee-hero .content{
+  width: 100%;
+  padding: 2% 0% 0% 0%;
+  text-align: center;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 50vh;
+}
+.locations-mississippi-hero .content{
+  width: 100%;
+  padding: 2% 0% 0% 0%;
+  text-align: center;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Blog Page */
+.resources-Blog-hero .content{
+  width:100%;
+  height: 20%;
+  
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 2.5rem;
+text-align: center;
+padding: 0 0%;
+}
+
+/* Blog Post */
+.blog-hero{
+  height: 45vh;
+}
+.blog-hero .content{
+  width: 100%;
+  height: 45%;
+  padding: 2% 10%;
+}
+
+.blog-hero .blog h2{
+  text-align: center;
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+/* News Page */
+.resources-News-hero .content{
+  width:100%;
+  height: 20%;
+  
+}
+
+.resources-News-hero .resources-News h2{
+font-size: 2.5rem;
+text-align: center;
+padding: 0 0%;
+}
+
+/* News Post */
+.news-single-hero{
+  height: 45vh;
+}
+.news-single-hero .content{
+  width: 100%;
+  height: 25%;
+  padding: 2% 10%;
+}
+
+.news-single-hero .news h2{
+  text-align: center;
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+   /* PMQ */
+   .PMQ-hero .content{
+     padding: 3% 17%;
+   }
+.PMQ-hero .content h2{
+  font-size: 3.2rem;
+}
+    /* Services */
+    .services-hero .content{
+      width: 80%;
+    }
+    .services-hero .content::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: -1;
+    }
+
+
+/* Light */
+.light-hero{
+  height: 700px;
+}
+.light-hero .content{
+  width: 100%;
+  height: 15%;
+  padding-top: 2%;
+}
+
+
+
+
+/* Medium */
+.medium-hero{
+  height: 700px;
+}
+.medium-hero .content{
+  width: 100%;
+  height: 15%;
+  padding-top: 2%;
+}
+
+  /* Heavy */
+  .heavy-hero{
+    height: 700px;
+  }
+  .heavy-hero .content{
+    width: 100%;
+    height: 15%;
+    padding-top: 2%;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+   /* About Page */
+  .about-hero .content{
+    padding: 2% 12%;
+  }
+
+  /* Contact */
+  .contact-hero{
+    height: 500px;
+  }
+  .contact-hero .contact{
+    padding: 2% 0;
+    height: 20%;
+
+  }
+  .contact-hero .contact h2{
+
+    margin: 0;
+    text-align: center;
+  }
+
+
+
+     /* Careers */
+
+     .careers-hero .content{
+      text-align: center;
+      height: 20%;
+    }
+    .careers-hero .content h2{
+     font-size: 2.5rem;
+    }
+    .careers-hero .careers{
+     padding: 2% 0% 0% 0%;
+   }
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 3% 0% 3% 0;
+    width: 100%;
+  }
+  .resources-hero .content h2{
+    font-size: 2.8rem;
+  
+  }
+
+    /* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 60vh;
+}
+.locations-fort-worth-hero .content{
+  width: 100%;
+  padding: 4% 0% 0% 0%;
+  text-align: center;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 60vh;
+}
+.locations-kansas-hero .content{
+  width: 100%;
+  padding: 4% 0% 0% 0%;
+  text-align: center;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 60vh;
+}
+.locations-tennessee-hero .content{
+  width: 100%;
+  padding: 4% 0% 0% 0%;
+  text-align: center;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 60vh;
+}
+.locations-mississippi-hero .content{
+  width: 100%;
+  padding: 4% 0% 0% 0%;
+  text-align: center;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+
+   /* Eguides*/
+.resources-e-guides-hero .content{
+  width: 100%;
+
+  padding: 2% 0% 2% 0%;
+}
+
+/* Blog Page */
+.resources-Blog-hero .content{
+  width:100%;
+  height: 20%;
+  padding: 4% 5% 0% 0%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 2.5rem;
+text-align: center;
+padding: 0 0%;
+}
+
+/* Blog Post */
+.blog-hero{
+  height: 60vh;
+}
+.blog-hero .content{
+  width: 100%;
+  height: 35%;
+  padding: 2% 10%;
+}
+
+.blog-hero .blog h2{
+  text-align: center;
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+
+
+/* News Page */
+.resources-News-hero .content{
+  width:100%;
+  height: 20%;
+  padding: 4% 5% 0% 0%;
+}
+
+.resources-News-hero .resources-News h2{
+font-size: 2.5rem;
+text-align: center;
+padding: 0 0%;
+}
+
+/* News Post */
+.news-single-hero{
+  height: 60vh;
+}
+.news-single-hero .content{
+  width: 100%;
+  height: 25%;
+  padding: 2% 10%;
+}
+
+.news-single-hero .news h2{
+  text-align: center;
+font-size: 2.5rem;
+padding: 0 0%;
+}
+
+    /* PMQ */
+
+
+    .PMQ-hero .content h2{
+      font-size: 2.8rem;
+    }
+    .PMQ-hero .PMQ{
+      padding: 3% 17% 3% 17%;
+    }
+
+      /* Services */
+      .services-hero .content{
+      width: 80%;
+    }
+    .services-hero .content::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: -1;
+    }
+
+
+
+
+  /* Services Engineering */
+  .services-hero .services h2{
+    font-size: 2rem;
+  }
+  .services-Assembly-hero .content h2{
+    font-size: 3.5rem;
+  }
+
+/* Light */
+.light-hero{
+  height: 700px;
+}
+.light-hero .content{
+  width: 100%;
+  height: 15%;
+  padding-top: 2%;
+}
+
+
+/* Medium */
+.medium-hero{
+  height: 700px;
+}
+.medium-hero .content{
+  width: 100%;
+  height: 15%;
+  padding-top: 2%;
+}
+
+
+    /* Heavy */
+    .heavy-hero{
+      height: 700px;
+    }
+    .heavy-hero .content{
+      width: 100%;
+      height: 15%;
+      padding-top: 2%;
+    }
+}
+@media screen and (max-width:700px) {
+
+  .blog-single-page .comtent h2{
+    font-size: 2.8rem;
+  }
+
+   /* About Page */
+
+
+   /* PMQ */
+   .PMQ-hero .content h2{
+     font-size: 2rem;
+     line-height: 1.4;
+   }
+
+  /* Blog Page */
+.resources-Blog-hero .content{
+  width:100%;
+  height: 20%;
+  padding: 5% 5% 0% 0%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 2.5rem;
+text-align: center;
+padding: 0 0%;
+}
+
+  /* News Page */
+  .resources-News-hero .content{
+    width:100%;
+    height: 20%;
+    padding: 5% 5% 0% 0%;
+  }
+  
+  .resources-News-hero .resources-News h2{
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0 0%;
+  }
+
+
+    /* Locations */
+/* FortWorth */
+.locations-fort-worth-hero{
+  height: 60vh;
+}
+.locations-fort-worth-hero .content{
+  width: 100%;
+  padding: 6% 0% 0% 0%;
+  text-align: center;
+}
+.locations-fort-worth-hero .content::after{
+  background: #1B365D;
+}
+
+.locations-kansas-hero{
+  height: 60vh;
+}
+.locations-kansas-hero .content{
+  width: 100%;
+  padding: 6% 0% 0% 0%;
+  text-align: center;
+}
+.locations-kansas-hero .content::after{
+  background: #1B365D;
+}
+
+/* Tennessee */
+.locations-tennessee-hero{
+  height: 60vh;
+}
+.locations-tennessee-hero .content{
+  width: 100%;
+  padding: 6% 0% 0% 0%;
+  text-align: center;
+}
+.locations-tennessee-hero .content::after{
+  background: #1B365D;
+}
+
+
+/* Mississippi */
+.locations-mississippi-hero{
+  height: 60vh;
+}
+.locations-mississippi-hero .content{
+  width: 100%;
+  padding: 6% 0% 0% 0%;
+  text-align: center;
+}
+.locations-mississippi-hero .content::after{
+  background: #1B365D;
+}
+
+  /* Contact */
+
+  .contact-hero .contact{
+    padding: 2% 0;
+    height: 17%;
+  
+  }
+  .contact-hero .contact h2{
+    font-size: 3.5rem;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  .hero.blog-single-hero .content h2 {
+    padding: 20px 0px;
+
+    font-size: 3.2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+  .blog-single-hero .content {
+    padding: 0 15%;
+}
+   /* About Page */
+.about-hero .content{
+  padding: 2% 5%;
+}
+
+
+
+
+   /* PMQ */
+  .PMQ-hero .PMQ{
+    padding: 3% 10% 0% 10%;
+  }
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 3% 0% 3% 0;
+    width: 100%;
+  }
+  .resources-hero .content h2{
+    font-size: 2.4rem;
+  
+  }
+
+    /* Blog Page */
+.resources-Blog-hero .content{
+  width:100%;
+  height: 20%;
+  padding: 6% 5% 0% 0%;
+}
+
+.resources-Blog-hero .resources-Blog h2{
+font-size: 2.5rem;
+text-align: center;
+padding: 0 0%;
+}
+
+
+    /* News Page */
+    .resources-News-hero .content{
+      width:100%;
+      height: 20%;
+      padding: 6% 5% 0% 0%;
+    }
+    
+    .resources-News-hero .resources-News h2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0 0%;
+    }
+
+   /* Services */
+   .services-hero .content{
+    width: 90%;
+  }
+  .services-Assembly-hero .content h2{
+    font-size: 3.2rem;
+  }
+
+
+  /* Light */
+  .light-hero .content h2{
+    font-size: 2.5rem;
+  }
+  .light-hero .content{
+    padding: 3% 0;
+  }
+
+    /* medium */
+    .medium-hero .content h2{
+      font-size: 2.5rem;
+    }
+    .medium-hero .content{
+      padding: 3% 0;
+    }
+      /* heavy */
+      .heavy-hero .content h2{
+        font-size: 2.5rem;
+      }
+      .heavy-hero .content{
+        padding: 3% 0;
+      }
+}
+
+@media (max-width:500px){
+
+  .blog-single-hero .content {
+    padding: 0 6%;
+}
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 3% 0% 3% 0;
+    width: 100%;
+  }
+  .resources-hero .content h2{
+    font-size: 2rem;
+  
+  }
+
+  .resources-e-guides-hero .content h2{
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width:400px){
+
+  .hero.blog-single-hero .content {
+    padding: 0%;
+}  .hero.blog-single-hero .content h2{
+    font-size: 2rem;
+}
+  .schedule-tour-hero .schedule-tour h2{
+    font-size: 3rem;
+  }
+  .about-hero .content h2{
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+  }
+  .about-hero .content p{
+    font-size: 1.1rem;
+  }
+  .about-hero .content{
+    padding: 2% 0;
+  }
+
+  /* Resources */
+
+  .resources-hero .content{
+    padding: 3% 5% 3% 5%;
+    width: 100%;
+  }
+  .resources-hero .content h2{
+    font-size: 2rem;
+  
+  }
+
+  /* Light */
+  .light-hero .content h2{
+    font-size: 2rem;
+  }
+  .light-hero .content{
+    padding: 5% 0;
+  }
+
+    /* medium */
+    .medium-hero .content h2{
+      font-size: 2rem;
+    }
+    .medium-hero .content{
+      padding: 5% 0;
+    }
+    /* heavy */
+    .heavy-hero .content h2{
+      font-size: 2rem;
+    }
+    .heavy-hero .content{
+      padding: 5% 0;
+    }
+}
+
+

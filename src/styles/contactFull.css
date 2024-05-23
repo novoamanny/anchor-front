@@ -1,0 +1,101 @@
+.ContactFull{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    width: 100%;
+}
+.ContactFull .left{
+    color: #fff;
+    padding: 5% 0;
+    background: rgba(0, 0, 0, 0.3);
+    width: 50%;
+    font-size: 2rem;
+    padding-left: 7%;
+    
+}
+.ContactFull .right{
+    width: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5% 0;
+    height: 100%;
+}
+.ContactFull .left p{
+    padding-right: 40%;
+}
+.ContactFull .left h2{
+    font-size: 6rem;
+    padding-right: 50%;
+    text-align: left;
+    font-family: 'Built-Tilting-Bold';
+    margin-bottom: 50px;
+}
+
+
+@media  (max-width: 2400px) {
+    .ContactFull .left{
+
+        padding-bottom: 3%;
+        padding-top: 5%;
+        padding-left: 7%;
+        
+    }
+    .ContactFull .right{
+        padding-bottom: 3%;
+        padding-top: 5%;
+    }
+    .ContactFull .left h2{
+        font-size: 5rem;
+    }
+    .ContactFull .left p{
+        font-size: 1.7rem;
+    }
+}
+@media  (max-width: 2200px) {
+    .ContactFull .left p{
+        font-size: 1.5rem;
+    }
+}
+@media  (max-width: 2000px) {
+    .ContactFull .left h2{
+        font-size: 4rem;
+    }
+    .ContactFull .left p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1800px) {
+    .ContactFull .left h2{
+        font-size: 3.5rem;
+    }
+    .ContactFull .left p{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 1200px) {
+    .ContactFull .left h2{
+        font-size: 3rem;
+    }
+    .ContactFull .left p{
+        font-size: 1rem;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width: 900px) {
+    .ContactFull .left, .ContactFull .right{
+        width: 100%;
+        padding: 3% 2%;
+    }
+    .ContactFull .left h2{
+        font-size: 3rem;
+        padding: 0;
+        text-align: center;
+    }
+    .ContactFull .left p{
+        font-size: 1.2rem;
+        padding: 0%;
+        text-align: center;
+    }
+}

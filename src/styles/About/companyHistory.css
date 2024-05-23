@@ -1,0 +1,635 @@
+.companyHistory{
+    background-image: url(../../images/blueprint-watermark.jpg);
+    color: #1b365d;
+    padding-bottom: 180px;
+}
+.companyHistory h3{
+    font-family: 'Built-Tilting-Bold';
+    font-size: 5rem;
+    margin-top: 100px;
+}
+.companyHistory li{
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+
+}
+.CHTop{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.CHTLeft{
+    width: 48%;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+.CHImage{
+    width: 52%;
+    height: 27vw;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+
+}
+.CHImage img{
+    width: 100%;
+    height: 100%;
+}
+.CHImage:before{
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    background-image: url(../../images/blueprint-watermark.jpg);
+    background-position: right center;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: skew(15deg);
+    -ms-transform: skew(15deg);
+    transform: skew(18deg);
+    z-index: 5;
+}
+.CHImage:after{
+    content: '';
+  position: absolute;
+  top: 0;
+  right: -30%;
+  width: 30%;
+  height: 100%;
+  background: #272727;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: skew(15deg);
+  -ms-transform: skew(15deg);
+  transform: skew(18deg);
+  z-index: 5;
+}
+.CHBot{
+    padding-left: 5%;
+    padding-right: 25%;
+}
+.companyHistory .CHText-0,
+.companyHistory .CHText-1,
+.companyHistory .CHText-2{
+    margin: 30px 0;
+}
+
+.left-cta{
+    padding-top: 2%;
+    padding-left: 5%;
+    
+}
+.companyHistory .cta-button::before{
+    background-color: #C08F56;
+}
+.companyHistory .cta-button{
+    width: 15%;
+    font-size: 1.5rem;
+    background-color: #C08F56;
+}
+@media screen and (max-width:2700px) {
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .companyHistory .cta-button{
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width:2600px){
+    .companyHistory{
+
+        color: #1b365d;
+
+        margin-bottom: 0px;
+      }
+    .companyHistory h3{
+     
+        font-size: 6rem;
+        margin-top: 80px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: 1.5rem;
+
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .CHImage:before{
+        content: '';
+      position: absolute;
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: 5;
+    }
+    .CHImage:after{
+        content: '';
+      position: absolute;
+      top: 0;
+      right: -30%;
+      width: 30%;
+      height: 100%;
+      background: #272727;
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: 5;
+    }
+}
+
+@media screen and (max-width:2400px){
+    .companyHistory h3{
+   
+        font-size: 5.5rem;
+        margin-top: 80px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: 1.4rem;
+
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .companyHistory .cta-button{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 2300px){
+    .companyHistory h3{
+
+        font-size: 5rem;
+        margin-top: 80px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+}
+
+@media screen and (max-width:2100px) {
+    .companyHistory{
+        padding-bottom: 150px;
+    }
+    .companyHistory h3{
+     
+        font-size: 4.5rem;
+        margin-top: 80px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .CHImage:before{
+
+      width: 17%;
+
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .companyHistory{
+        padding-bottom: 120px;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+    .companyHistory .cta-button{
+        font-size: 1.2rem;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    .companyHistory{
+        padding-bottom: 120px;
+    }
+    .companyHistory h3{
+
+        font-size: 4rem;
+        margin-top: 60px;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: 1.1rem;
+        line-height: 2.2rem;
+    }
+    .companyHistory .cta-button{
+        font-size: 1.1rem;
+        height: 45px;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .companyHistory{
+        padding-bottom: 100px;
+    }
+    .companyHistory h3{
+     
+        font-size: 3.7rem;
+        margin-top: 60px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .9rem;
+        line-height: 2rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .companyHistory .cta-button{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .companyHistory{
+        padding-bottom: 100px;
+    }
+    .companyHistory h3{
+
+        font-size: 3.7rem;
+        margin-top: 60px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .9rem;
+        line-height: 2rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+}
+@media screen and (max-width: 1500px){
+    .companyHistory{
+        padding-bottom: 100px;
+    }
+    .companyHistory h3{
+   
+        font-size: 3.4rem;
+        margin-top: 50px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .9rem;
+        line-height: 1.7rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .companyHistory .cta-button{
+        font-size: .9rem;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1400px){
+    .companyHistory{
+        padding-bottom: 100px;
+    }
+    .companyHistory h3{
+    
+        font-size: 3.2rem;
+        margin-top: 50px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .9rem;
+        line-height: 1.7rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+}
+
+
+
+@media screen and (max-width: 1300px){
+    .companyHistory{
+        padding-bottom: 100px;
+    }
+    .companyHistory h3{
+     
+        font-size: 3.2rem;
+        margin-top: 50px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .companyHistory .cta-button{
+        font-size: .8rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .companyHistory{
+        padding-bottom: 80px;
+    }
+    .companyHistory h3{
+    
+        font-size: 3.2rem;
+        margin-top: 50px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .companyHistory{
+        padding-bottom: 80px;
+    }
+    .companyHistory h3{
+   
+        font-size: 3rem;
+        margin-top: 50px;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+    .CHTLeft{
+        padding-left: 5%;
+        padding-right: 8%;
+    }
+    .CHImage{
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .CHImage:before{
+        content: '';
+      position: absolute;
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: 5;
+    }
+}
+/* @media screen and (max-width: 1000px) {
+    .CHTLeft{
+        width: 50%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .CHImage{
+        width: 50%;
+        height: 350px;
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .CHImage:before{
+        content: '';
+      position: absolute;
+      top: 0;
+      left: 5%;
+      width: 25%;
+      height: 100.1%;
+      background: #fff;
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: 5;
+    }
+} */
+@media screen and (max-width: 1000px){
+    .CHTLeft{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .CHImage{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+    .CHImage:before{
+        content: '';
+      position: absolute;
+      background: rgba(27,54,93, 0.75);
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: 5;
+    }
+    .CHImage::after{
+        background-color: rgba(27,54,93, 0.75);
+    }
+
+    .companyHistory h3{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.7rem;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .companyHistory li{
+        list-style: none;
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+    .CHBot{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .companyHistory .left-cta{
+        padding-top: 3%;
+    }
+    .companyHistory .cta-button{
+        width: 25%;
+        
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .companyHistory .left-cta{
+        padding-top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .CHImage:before{
+        content: '';
+      position: absolute;
+      width: 16%;
+      background: rgba(27,54,93, 0.75);
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: 5;
+    }
+}
+@media screen and (max-width: 700px) {
+    .companyHistory .cta-button{
+        font-size: .7rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .CHImage:before{
+        content: '';
+      position: absolute;
+      width: 20%;
+      background: rgba(27,54,93, 0.75);
+      -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -webkit-transform: skew(15deg);
+      -ms-transform: skew(15deg);
+      transform: skew(18deg);
+      z-index: 5;
+    }
+    .companyHistory .cta-button{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .companyHistory .cta-button{
+        width:  40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .companyHistory .cta-button{
+        margin-top: 30px;
+        width: 90%;
+    }
+}

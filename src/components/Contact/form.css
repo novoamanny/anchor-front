@@ -1,0 +1,387 @@
+.one{
+    width: 84%
+}
+.half{
+width: 40%;
+}
+.third{
+    width: 25%
+}
+.two-third{
+    width: 55%
+}
+.form-input-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-input-container-full{
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-input-container-full input{
+    margin: 20px 30px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+.form-input-container input{
+    margin: 30px 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+.form-input-container textarea{
+    font-size: 1.3rem;
+    font-family: 'Gotham-Medium';
+    padding: 20px;
+    margin: 20px 0;
+}
+.checkbox-container{
+    width: 84%;
+}
+.form-input-container-full span{
+    font-size: 1.5rem;
+    color: #fff
+}
+.cta-container{
+    width:100%
+}
+.form-input-container .cta-button, .form-input-container-full .cta-button{
+    width: 40%;
+    margin-top: 50px;
+    background: #C08F56;
+    border: none;
+}
+
+.form-input-container .cta-button:before, .form-input-container-full .cta-button:before{
+    background: #C08F56;
+}
+
+
+.blue-form{
+    background-color: #1B365D;
+    padding: 3% 0%;
+}
+.blue-form h2{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.schedule-container{
+    padding: 3% 20%;
+}
+.schedule-container .checkbox-container input{
+margin: 20px 0px;
+
+}
+.schedule-container .checkbox-container span{
+    font-size: 1.4rem;
+    margin-left: 20px;
+    color: #fff;
+}
+.schedule-container .half{
+    width: 41%;
+}
+.schedule-container h2:nth-child(1){
+    font-size: 2rem;
+}
+.schedule-container h3{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+.schedule-container .cta-button{
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 2600px) {
+    .schedule-container{
+        padding: 3% 15%;
+    }
+}
+@media screen and (max-width:2400px) {
+    .schedule-container h2:nth-child(1){
+        font-size: 1.8rem;
+    }
+    .schedule-container h3{
+        font-size: 1.6rem;
+    }
+    .schedule-container .checkbox-container span{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:2300px){
+.form-input-container input{
+    font-size: 1.3rem;
+    margin: 20px;
+}
+.form-input-container-full input{
+    font-size: 1.3rem;
+    margin: 20px;
+}
+.form-input-container-full span{
+    font-size: 1.3rem;
+
+}
+.schedule-container .half{
+    width: 40.8%;
+}
+}
+@media screen and (max-width: 2200px) {
+    .schedule-container .cta-button{
+        height: 50px;
+    }
+    .schedule-container h2:nth-child(1){
+        font-size: 1.6rem;
+    }
+    .schedule-container h3{
+        font-size: 1.4rem;
+    }
+    .schedule-container .checkbox-container span{
+        font-size: 1rem;
+    }
+    .schedule-container .checkbox-container input{
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:2000px){
+    .form-input-container input{
+        font-size: 1.1rem;
+        margin: 15px 20px;
+        padding: 5px 20px;
+    }
+    .form-input-container-full input{
+        font-size: 1.1rem;
+        margin: 15px 20px;
+
+        padding: 10px 20px;
+    }
+    .form-input-container-full span{
+        font-size: 1.1rem;
+
+    }
+    .schedule-container h2:nth-child(1){
+        font-size: 1.4rem;
+    }
+    .schedule-container h3{
+        font-size: 1.2rem;
+    }
+    .schedule-container .cta-button{
+        font-size: 1.2rem;
+        width: 30%;
+        height: 60px;
+    }
+    .form-input-container textarea{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media(max-width:1800px){
+    .form-input-container input{
+        font-size: .9rem;
+        margin: 15px 20px;
+        padding: 5px 20px;
+    }
+    .form-input-container-full input{
+        font-size: .9rem;
+        margin: 12px 20px;
+
+        padding: 8px 20px;
+    }
+    .form-input-container-full span{
+        font-size: .9rem;
+
+    }
+    .schedule-container .cta-button{
+        font-size: 1rem;
+        height: 50px;
+    }
+    .form-input-container textarea{
+        font-size: 1rem;
+    }
+}
+@media (max-width:1600px){
+    .schedule-container .half{
+        width: 41%;
+        margin: 1%;
+    }
+    .schedule-container h2:nth-child(1){
+        font-size: 1.2rem;
+    }
+    .schedule-container h3{
+        font-size: 1rem;
+    }
+    .schedule-container .checkbox-container span{
+        font-size: .8rem;
+    }
+    .schedule-container .checkbox-container input{
+        margin: 12px 0;
+    }
+    .form-input-container .half, .form-input-container .third, .form-input-container .two-third, .form-input-container-full .half{
+        margin: 15px;
+    }
+}
+@media (max-width: 1500px){
+    .schedule-container{
+        padding: 3% 10%;
+    }
+    .form-input-container textarea{
+        font-size: .9rem;
+    }
+}
+
+@media(max-width:1400px){
+    .form-input-container-full .cta-button{
+        width: 60%;
+    }
+    .schedule-container{
+        padding: 3% 8%;
+    }
+    .schedule-container .cta-button{
+        font-size: .9rem;
+    }
+}
+
+
+@media(max-width:1200px){
+    .form-input-container input{
+        font-size: 1rem;
+        margin: 20px 25px;
+        padding: 5px 20px;
+    }
+
+    .form-input-container-full input{
+        font-size: .8rem;
+        margin: 12px 15px;
+
+        padding: 8px 20px;
+    }
+    .form-input-container-full span{
+        font-size: .9rem;
+
+    }
+    .form-input-container-full .cta-button{
+        width: 70%;
+    }
+    .schedule-container{
+        padding: 3% 6%;
+    }
+
+    .schedule-container .half{
+        margin: 15px 10px;
+    }
+}
+@media(max-width:1100px){
+    .schedule-container{
+        padding: 3% 4%;
+    }
+    .schedule-container h2:nth-child(1){
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:900px){
+    .form-input-container input{
+        font-size: .9rem;
+        margin: 12px 20px;
+        padding: 5px 20px;
+    }
+    .schedule-container .cta-button{
+        font-size: .8rem;
+        width: 40%;
+    }
+}
+
+    @media(max-width:800px){
+        .form-input-container input{
+            font-size: .9rem;
+            margin: 12px 0px;
+            padding: 5px 20px;
+            width: 100%;
+        }
+        .form-input-container-full input{
+            width: 100%;
+        }
+        
+        .form-input-container textarea{
+            width: 100%;
+        }
+        .form-input-container .half, .form-input-container .third, .form-input-container .two-third{
+            margin: 15px 0;
+        }
+        .form-input-container-full .half, .form-input-container-full .one{
+            margin: 15px 0;
+        }
+        .form-input-container-full .checkbox-container input{
+            width: 5%;
+        }
+        .schedule-container{
+            padding: 5% 2%;
+        }
+        
+        
+        .schedule-container .blue-form{
+            padding: 2% 3%;
+        }
+        .schedule-container input, .schedule-container .half{
+            margin: 0;
+            width: 100%;
+            margin: 10px 0;
+         
+        }
+        .schedule-container .checkbox-container{
+            width: 100%;
+        }
+        .schedule-container .checkbox-container input{
+            width: 5%;
+        }
+        .schedule-container textarea{
+            
+       width: 100%;
+        }
+    }
+
+
+@media(max-width:700px){
+
+    .schedule-container input, .schedule-container .half{
+        margin: 0;
+        width: 100%;
+        margin: 10px 0;
+        font-size: .8rem;
+     
+    }
+    .schedule-container h2:nth-child(1){
+        padding: 0 20%;
+    }
+}
+@media(max-width:600px){
+    .schedule-container .cta-button{
+        width: 50%;
+    }
+}
+@media(max-width:500px){
+    .schedule-container h2:nth-child(1){
+        font-size: 1rem;
+    }
+    .schedule-container .cta-button{
+        width: 70%;
+    }
+}
+@media (max-width:400px) {
+    .schedule-container h2:nth-child(1){
+        padding: 0 10%;
+    }
+    .schedule-container input{
+        padding: 1% 3%;
+        font-size: .7rem;
+    }
+    .form-input-container-full .checkbox-container span{
+        font-size: .7rem;
+    }
+}

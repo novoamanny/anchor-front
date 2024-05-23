@@ -1,0 +1,217 @@
+.team-intro{
+    color: #1B365D;
+    text-align: center;
+    width: 100%;
+    padding: 3% 0
+}
+.team-intro span{
+    font-family: 'Built-Tilting-Bold';
+    font-size: 4rem;
+}
+.team-intro h3{
+    font-family: 'Built-Tilting-Regular';
+    font-size: 3.5rem;
+}
+.team-intro-text{
+    font-family: 'Gotham-Medium';
+    font-size: 2rem;
+    padding: 2% 17%;
+    line-height: 2rem;
+}
+@media screen and (max-width: 2700px) {
+    .team-intro-text{
+        font-family: 'Gotham-Medium';
+        font-size: 2rem;
+        padding: 2% 13%;
+    }
+}
+@media screen and (max-width: 2600px) {
+    .team-intro{
+        padding: 2% 0;
+    }
+    .team-intro-text{
+        font-family: 'Gotham-Medium';
+        font-size: 1.7rem;
+        padding: 2% 13%;
+    }
+}
+@media screen and (max-width: 2400px) {
+    .team-intro-text{
+        font-size: 1.5rem;
+        padding: 1% 13%;
+    }
+}
+@media screen and (max-width:2200px) {
+    .team-intro{
+        padding: 3% 0;
+    }
+    .team-intro-text{
+        font-size: 1.5rem;
+        padding: 1% 13%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3.5rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 2000px){
+    .team-intro{
+        padding: 3% 0;
+    }
+    .team-intro-text{
+        font-size: 1.4rem;
+        padding: 1% 13%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3.5rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1900px){
+    .team-intro{
+        padding: 4% 0;
+    }
+    .team-intro-text{
+        font-size: 1.4rem;
+        padding: 1% 10%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3.5rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 1700px){
+    .team-intro{
+        padding: 4% 0;
+    }
+    .team-intro-text{
+        font-size: 1.2rem;
+        padding: 1% 10%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3.5rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .team-intro{
+        padding: 3% 0;
+    }
+    .team-intro-text{
+        font-size: 1.1rem;
+        padding: 1% 10%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 3rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .team-intro{
+        padding: 3% 0;
+    }
+    .team-intro-text{
+        font-size: 1rem;
+        padding: 1% 10%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.7rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .team-intro{
+        padding: 3% 0;
+    }
+    .team-intro-text{
+        font-size: 1rem;
+        padding: 1% 10%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.7rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .team-intro{
+        padding: 3% 0;
+    }
+    .team-intro-text{
+        font-size: 1rem;
+        padding: 1% 5%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.7rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 2.4rem;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .team-intro{
+        padding: 3% 0;
+    }
+    .team-intro-text{
+        font-size: .9rem;
+        padding: 1% 5%;
+    }
+    .team-intro span{
+        font-family: 'Built-Tilting-Bold';
+        font-size: 2.4rem;
+    }
+    .team-intro h3{
+        font-family: 'Built-Tilting-Regular';
+        font-size: 2.1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+
+}
+
+@media screen and (max-width: 400px) {
+    .team-intro-text{
+        line-height: 2rem;
+    }
+}

@@ -1,0 +1,52 @@
+/* XD file is 1964 px wide. Assuming normal desktop view is 1024 wide, we can basically divide pixel values in half to get at our CSS. */
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+       url('../fonts/Gotham-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+       url('../fonts/Gotham-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Built-Tilting-Regular';
+  src: url('../fonts/BuiltTitlingRg-Regular.woff2') format('woff2'),
+       url('../fonts/BuiltTitlingRg-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Built-Tilting-Bold';
+  src: url('../fonts/BuiltTitlingRg-Bold.woff2') format('woff2'),
+       url('../fonts/BuiltTitlingRg-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Social-Circles';
+  src: url('../fonts/social_circles.woff2') format('woff2'),
+       url('../fonts/social_circles.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gotham-Medium';
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
